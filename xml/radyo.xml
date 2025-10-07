@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <radyo>
 	<media>
+		<title>NTV Canlı Yayın - Full HD İzle</title>
+		<thumb>https://i.ytimg.com/vi/pqq5c6k70kk/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>pqq5c6k70kk</src>
+	</media>
+	<media>
+		<title>Haber Global TV ᴴᴰ Canlı TV İzle</title>
+		<thumb>https://i.ytimg.com/vi/6BX-NUzBSp8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>6BX-NUzBSp8</src>
+	</media>
+	<media>
 		<title>TRT Haber Canlı Yayın</title>
 		<thumb>https://i.ytimg.com/vi/ZdLjZxaqCeQ/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
