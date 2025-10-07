@@ -2,21 +2,27 @@ name: Günlük YouTube Radyo Güncelleme
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *'   # Her 30 dakikada bir
+  workflow_dispatch:          # Manuel çalıştırma butonu
+
+permissions:
+  contents: write             # Push yetkisi
 
 jobs:
   update-radio:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Repoyu çek
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Python ortamını kur
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - run: pip install requests xmltodict
+      - name: Gerekli kütüphaneleri yükle
+        run: pip install requests xmltodict
 
       - name: XML dosyasını güncelle
         env:
@@ -27,6 +33,11 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+
           git add xml/radyo.xml
-          git commit -m "YouTube canlı yayın listesi güncellendi" || echo "No changes"
-          git push
+
+          # Commit değişiklik yoksa hata vermesin
+          git diff-index --quiet HEAD || git commit -m "YouTube canlı yayın listesi güncellendi"
+
+          # Push sırasında HEAD ve branch eşleşmesini zorla
+          git push origin HEAD:main
