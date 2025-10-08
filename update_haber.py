@@ -18,24 +18,26 @@ def get_live_videos(channel_id):
         f"https://www.googleapis.com/youtube/v3/search?"
         f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
     )
-    r = requests.get(url)
-    data = r.json()
-    
-    # Debug: hangi kanal, kaç video geldi
-    print(f"Kanal: {channel_id}, Video sayısı: {len(data.get('items', []))}")
-    
-    results = []
-    for item in data.get("items", []):
-        vid = item["id"]["videoId"]
-        title = item["snippet"]["title"]
-        thumb = item["snippet"]["thumbnails"]["high"]["url"]
-        results.append({
-            "title": title,
-            "thumb": thumb,
-            "type": "youtube",
-            "src": vid
-        })
-    return results
+    try:
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        results = []
+        for item in data.get("items", []):
+            vid = item["id"]["videoId"]
+            title = item["snippet"]["title"]
+            thumb = item["snippet"]["thumbnails"]["high"]["url"]
+            results.append({
+                "title": title,
+                "thumb": thumb,
+                "type": "youtube",
+                "src": vid
+            })
+        return results
+    except Exception as e:
+        # Hata olsa bile boş liste dön
+        print(f"⚠️ Kanal {channel_id} hatası: {e}")
+        return []
 
 def main():
     channels = read_channels(CHANNEL_FILE)
@@ -43,17 +45,14 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    # Debug: toplam video sayısı
-    print("Toplam video bulundu:", len(media_items))
-
+    # XML yapısı
     xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
 
+    # XML dosyasını yaz
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
     with open(XML_PATH, "w", encoding="utf-8") as f:
         f.write(xml_str)
-    
-    print("✅ XML dosyası yazıldı:", XML_PATH)
 
 if __name__ == "__main__":
     main()
