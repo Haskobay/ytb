@@ -1,41 +1,38 @@
-name: Update Haber XML
+name: Günlük YouTube Haber Güncelleme
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 */12 * * *'  # 12 saatte bir çalışacak
+    - cron: '0 */12 * * *'   # 12 saatte bir
+  workflow_dispatch:          # Manuel çalıştırma butonu
+
+permissions:
+  contents: write             # Push yetkisi
 
 jobs:
   update-haber:
     runs-on: ubuntu-latest
-    env:
-      YT_API_KEY_HABER: ${{ secrets.YT_API_KEY_HABER }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true  # Push yetkisi için
+      - name: Repoyu çek
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Python ortamını kur
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests xmltodict
+      - name: Gerekli kütüphaneleri yükle
+        run: pip install requests xmltodict
 
-      - name: Run update_haber.py
+      - name: XML dosyasını güncelle
+        env:
+          YT_API_KEY_HABER: ${{ secrets.YT_API_KEY_HABER }}
         run: python update_haber.py
 
-      - name: Commit and push updated XML
+      - name: Commit ve Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add xml/haber.xml
-          git commit -m "Update haber.xml" || echo "No changes to commit"
-          git push
+          git diff-index --quiet HEAD || git commit -m "YouTube canlı yayın listesi güncellendi"
+          git push origin HEAD:main
