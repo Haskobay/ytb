@@ -27,4 +27,4 @@ for media in root2.findall("media"):
 tree = ET.ElementTree(combined_root)
 tree.write("combined.xml", encoding="utf-8", xml_declaration=True)
 
-print("İki liste birleştirildi ve combined.xml olarak kaydedildi.")
+print("İki liste birleştirildi ve combined.xml olarak artifact olarak saklanacak.")
