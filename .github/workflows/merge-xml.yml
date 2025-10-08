@@ -5,6 +5,9 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write   # 🔥 push yapabilmek için gerekli izin
+
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -13,7 +16,7 @@ jobs:
     - name: Checkout Repo
       uses: actions/checkout@v4
       with:
-        persist-credentials: true
+        token: ${{ secrets.GITHUB_TOKEN }}  # 🔥 yetkili token
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -31,5 +34,5 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "actions@github.com"
         git add combined.xml
-        git commit -m "Auto-update: combined.xml"
+        git commit -m "Auto-update: combined.xml" || echo "No changes to commit"
         git push
