@@ -2,7 +2,7 @@ name: Günlük YouTube Spor Güncelleme
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # Her 30 dakikada bir
+    - cron: '0 */12 * * *'  # 12 saatte bir
   workflow_dispatch:          # Manuel çalıştırma butonu
 
 permissions:
