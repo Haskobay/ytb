@@ -48,7 +48,7 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    # Eğer hiç canlı yayın yoksa XML’e bilgi ekle
+    # Canlı yayın yoksa bilgi ekle
     if not media_items:
         media_items.append({
             "title": "No live videos currently",
