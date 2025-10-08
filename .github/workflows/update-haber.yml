@@ -1,17 +1,16 @@
-name: Günlük YouTube Haber Güncelleme
+name: Günlük YouTube Haber Güncelleme (Deneme)
 
 on:
+  workflow_dispatch:   # Elle çalıştırma
   schedule:
-    - cron: '*/30 * * * *'   # Her 30 dakikada bir
-  workflow_dispatch:          # Manuel çalıştırma butonu
+    - cron: '0 8 * * *'
 
 permissions:
-  contents: write             # Push yetkisi
+  contents: write
 
 jobs:
   update-haber:
     runs-on: ubuntu-latest
-
     steps:
       - name: Repoyu çek
         uses: actions/checkout@v4
@@ -26,18 +25,13 @@ jobs:
 
       - name: XML dosyasını güncelle
         env:
-          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY_HABER }}
         run: python update_haber.py
 
       - name: Commit ve Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-
           git add xml/haber.xml
-
-          # Commit değişiklik yoksa hata vermesin
-          git diff-index --quiet HEAD || git commit -m "YouTube canlı yayın listesi güncellendi"
-
-          # Push sırasında HEAD ve branch eşleşmesini zorla
+          git diff-index --quiet HEAD || git commit -m "Haber listesi güncellendi"
           git push origin HEAD:main
