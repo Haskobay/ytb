@@ -1,2 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <media>
+	<media>
+		<title>HAFTA ORTASI CANLI YAYIN | Barış Yurduseven, Aydın Cingöz</title>
+		<thumb>https://i.ytimg.com/vi/qQgHGyXIhso/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>qQgHGyXIhso</src>
+	</media>
+	<media>
+		<title>#CANLI - Ayça Kaçmaz İle Kürsü</title>
+		<thumb>https://i.ytimg.com/vi/RdpqsTbi_KU/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>RdpqsTbi_KU</src>
+	</media>
+	<media>
+		<title>A Spor Canlı Yayın 🔴</title>
+		<thumb>https://i.ytimg.com/vi/ysh-bPiD3Oo/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>ysh-bPiD3Oo</src>
+	</media>
+	<media>
+		<title>SIFIR TV CANLI YAYIN</title>
+		<thumb>https://i.ytimg.com/vi/JCSOAmBeXnY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>JCSOAmBeXnY</src>
+	</media>
+	<media>
+		<title>beIN SPORTS HABER Canlı Yayını | #beINSPORTS</title>
+		<thumb>https://i.ytimg.com/vi/ovXYPBAzo-w/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>ovXYPBAzo-w</src>
+	</media>
 </media>
