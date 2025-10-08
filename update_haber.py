@@ -39,7 +39,7 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    xml_data = {"medias": {"media": media_items}}
+    xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
 
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
