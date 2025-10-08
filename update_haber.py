@@ -11,14 +11,11 @@ if not API_KEY:
 
 def read_channels(path):
     ids = []
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    ids.append(line.split()[0])
-    except FileNotFoundError:
-        print(f"Channel file not found: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                ids.append(line.split()[0])
     return ids
 
 def get_live_videos(channel_id):
@@ -26,22 +23,14 @@ def get_live_videos(channel_id):
         f"https://www.googleapis.com/youtube/v3/search?"
         f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
     )
-    try:
-        r = requests.get(url)
-        if r.status_code != 200:
-            print(f"Failed to fetch channel {channel_id}: {r.status_code} {r.text}")
-            return []
-        data = r.json()
-    except requests.RequestException as e:
-        print(f"Request failed for channel {channel_id}: {e}")
+    r = requests.get(url)
+    if r.status_code != 200:
+        print(f"[ERROR] API returned {r.status_code} for channel {channel_id}")
         return []
 
-    items = data.get("items", [])
-    if not items:
-        print(f"No live videos found for channel {channel_id}")
-
+    data = r.json()
     results = []
-    for item in items:
+    for item in data.get("items", []):
         vid = item["id"]["videoId"]
         title = item["snippet"]["title"]
         thumb = item["snippet"]["thumbnails"]["high"]["url"]
@@ -55,18 +44,20 @@ def get_live_videos(channel_id):
 
 def main():
     channels = read_channels(CHANNEL_FILE)
-    if not channels:
-        print("No channels found in the file.")
-        return
-
     media_items = []
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
+    # Eğer hiç canlı yayın yoksa XML’e bilgi ekle
     if not media_items:
-        print("No live videos found for any channel. XML will be empty.")
+        media_items.append({
+            "title": "No live videos currently",
+            "thumb": "",
+            "type": "info",
+            "src": ""
+        })
 
-    xml_data = {"mediaList": {"media": media_items}}
+    xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
 
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
