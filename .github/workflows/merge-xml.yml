@@ -12,9 +12,6 @@ jobs:
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        persist-credentials: true
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -27,19 +24,8 @@ jobs:
     - name: Merge XML Lists
       run: python merge_xml.py
 
-    - name: Commit Changes to New Branch
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git checkout -B combined-xml
-        git add combined.xml
-        git diff-index --quiet HEAD || git commit -m "Update combined XML"
-        git push -u origin combined-xml --force
-
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+    - name: Upload Combined XML as Artifact
+      uses: actions/upload-artifact@v3
       with:
-        branch: combined-xml
-        commit-message: "Update combined XML"
-        title: "Update combined XML"
-        body: "This PR updates the combined XML list automatically."
+        name: combined-xml
+        path: combined.xml
