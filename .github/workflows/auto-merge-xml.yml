@@ -1,9 +1,7 @@
-name: Merge XML Lists
+name: Merge XML Files
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ main ]
 
 permissions:
   contents: write
@@ -13,25 +11,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repo
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.x
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-    - name: Merge XML files
-      run: python merge_xml.py
+      - name: Merge XML files
+        run: |
+          python merge_xml.py \
+            -i "https://raw.githubusercontent.com/Haskobay/ytb/refs/heads/main/xml/radyo.xml" \
+               "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/habertv.xml" \
+            -o "xml/combined.xml"
 
-    - name: Commit and Push Combined XML
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git add combined.xml
-        git diff --quiet && echo "No changes to commit" || (git commit -m "Auto-update: combined.xml ($(date))" && git push)
+      - name: Commit merged XML
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add xml/combined.xml
+          git commit -m "Auto-merged combined.xml on $(date)"
+          git push origin main
