@@ -22,7 +22,7 @@ jobs:
       run: pip install requests
 
     - name: Merge XML Lists
-      run: python merge_xml.py
+      run: python birles_xml.py
 
     - name: Upload Combined XML as Artifact
       uses: actions/upload-artifact@v4
