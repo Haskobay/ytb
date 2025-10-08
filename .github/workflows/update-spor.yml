@@ -1,4 +1,4 @@
-name: Günlük YouTube Radyo Güncelleme
+name: Günlük YouTube Spor Güncelleme
 
 on:
   schedule:
