@@ -1,30 +1,31 @@
 import xml.etree.ElementTree as ET
 import requests
 
-# XML dosyalarının ham URL'leri veya yerel dosya yolları
+# ---- Ayarlar ----
 url1 = "https://raw.githubusercontent.com/Haskobay/ytb/refs/heads/main/xml/radyo.xml"
 url2 = "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/habertv.xml"
 
-# XML'leri çek
-resp1 = requests.get(url1)
-resp2 = requests.get(url2)
+def fetch_xml(url):
+    print(f"Fetching: {url}")
+    r = requests.get(url)
+    r.raise_for_status()
+    return ET.fromstring(r.text)
 
-root1 = ET.fromstring(resp1.text)
-root2 = ET.fromstring(resp2.text)
+def combine_xml(root1, root2):
+    combined_root = ET.Element("medias")
+    for media in root1.findall("media"):
+        combined_root.append(media)
+    for media in root2.findall("media"):
+        combined_root.append(media)
+    return combined_root
 
-# Yeni root oluştur
-combined_root = ET.Element("medias")
+def save_xml(root, filename="combined.xml"):
+    tree = ET.ElementTree(root)
+    tree.write(filename, encoding="utf-8", xml_declaration=True)
+    print(f"XML saved as {filename}")
 
-# list1’den tüm <media> ekle
-for media in root1.findall("media"):
-    combined_root.append(media)
-
-# list2’den tüm <media> ekle
-for media in root2.findall("media"):
-    combined_root.append(media)
-
-# Yeni XML dosyası oluştur
-tree = ET.ElementTree(combined_root)
-tree.write("combined.xml", encoding="utf-8", xml_declaration=True)
-
-print("İki liste birleştirildi ve combined.xml olarak kaydedildi.")
+if __name__ == "__main__":
+    r1 = fetch_xml(url1)
+    r2 = fetch_xml(url2)
+    combined = combine_xml(r1, r2)
+    save_xml(combined)
