@@ -1,45 +1,50 @@
 import os, requests, xmltodict
 
 API_KEY = os.getenv("YT_API_KEY_HABER")
-CHANNEL_FILE = "data/channels.txt"
-XML_PATH = os.path.join(os.getcwd(), "xml", "haber.xml")  # absolute path
+CHANNEL_FILE = "data/haber.txt"
+XML_PATH = "xml/haber.xml"
 
-# Kanalları oku, sadece ID kısmı
-with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
-    channels = [line.split()[0] for line in f if line.strip()]
+def read_channels(path):
+    ids = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                ids.append(line.split()[0])
+    return ids
 
-media_items = []
+def get_live_videos(channel_id):
+    url = (
+        f"https://www.googleapis.com/youtube/v3/search?"
+        f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
+    )
+    r = requests.get(url)
+    data = r.json()
+    results = []
+    for item in data.get("items", []):
+        vid = item["id"]["videoId"]
+        title = item["snippet"]["title"]
+        thumb = item["snippet"]["thumbnails"]["high"]["url"]
+        results.append({
+            "title": title,
+            "thumb": thumb,
+            "type": "youtube",
+            "src": vid
+        })
+    return results
 
-for cid in channels:
-    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={cid}&eventType=live&type=video&key={API_KEY}"
-    try:
-        r = requests.get(url)
-        r.raise_for_status()
-        data = r.json()
-        for item in data.get("items", []):
-            vid = item["id"]["videoId"]
-            title = item["snippet"]["title"]
-            thumb = item["snippet"]["thumbnails"]["high"]["url"]
-            media_items.append({
-                "title": title,
-                "thumb": thumb,
-                "type": "youtube",
-                "src": vid
-            })
-    except Exception as e:
-        print(f"⚠️ Kanal {cid} hatası: {e}")
+def main():
+    channels = read_channels(CHANNEL_FILE)
+    media_items = []
+    for cid in channels:
+        media_items += get_live_videos(cid.strip())
 
-# XML dizini yoksa oluştur
-xml_dir = os.path.dirname(XML_PATH)
-os.makedirs(xml_dir, exist_ok=True)
-
-# XML yaz
-try:
-    xml_data = {"media": {"media": media_items}}
+    xml_data = {"medias": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
+
+    os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
     with open(XML_PATH, "w", encoding="utf-8") as f:
         f.write(xml_str)
-    print("✅ XML yazıldı:", XML_PATH)
-    print("Toplam video:", len(media_items))
-except Exception as e:
-    print("❌ XML yazma hatası:", e)
+
+if __name__ == "__main__":
+    main()
