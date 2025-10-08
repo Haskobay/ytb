@@ -2,56 +2,25 @@ name: Auto Merge XML Files
 
 on:
   schedule:
-    # Her gün 02:00'de çalışsın
     - cron: '0 2 * * *'
-    
-    # Her 6 saatte bir çalışsın
-    - cron: '0 */6 * * *'
-    
-    # Hafta içi her gün 09:00'de çalışsın
-    - cron: '0 9 * * 1-5'
-  
-  # Manuel tetikleme için
   workflow_dispatch:
-    inputs:
-      merge-message:
-        description: 'Merge commit mesajı'
-        required: false
-        default: 'Manual XML merge'
 
 jobs:
   merge-xml-files:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
-        
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-        
     - name: Merge XML files
+      run: python merge_xml.py
+    - name: Commit changes
       run: |
-        python .github/scripts/merge_xml.py
-      
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
         git add .
-        
-        # Commit mesajını oluştur
-        if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-          COMMIT_MSG="${{ github.event.inputs.merge-message }}"
-        else
-          COMMIT_MSG="Auto-merge XML files $(date +'%Y-%m-%d %H:%M:%S')"
-        fi
-        
-        git commit -m "$COMMIT_MSG" || echo "No changes to commit"
+        git commit -m "Auto-merge XML" || exit 0
         git push
