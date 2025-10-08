@@ -9,7 +9,7 @@ permissions:
   contents: write             # Push yetkisi
 
 jobs:
-  update-radio:
+  update-haber:
     runs-on: ubuntu-latest
 
     steps:
