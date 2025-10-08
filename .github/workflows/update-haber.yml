@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       YT_API_KEY_HABER: ${{ secrets.YT_API_KEY_HABER }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # push yetkisi için
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout repository
