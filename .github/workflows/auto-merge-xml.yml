@@ -1,29 +1,54 @@
-name: Merge XML Files
+name: Merge XML Test
 
-on:
-  schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
-  merge-xml:
+  merge-test:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      
+    
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         
-    - name: Merge XML files
-      run: python merge_xml.py
-      
-    - name: Commit and push
+    - name: List files before
       run: |
-        git config user.email "actions@github.com"
-        git config user.name "GitHub Actions"
-        git add .
-        git commit -m "XML files merged" || exit 0
-        git push
+        echo "=== MERGE ÖNCESİ DOSYALAR ==="
+        ls -la
+        echo "=== XML DOSYALARI ==="
+        find . -name "*.xml" -type f
+        
+    - name: Run merge script
+      run: |
+        python merge_xml.py
+        echo "=== SCRIPT ÇIKTI KODU: $? ==="
+        
+    - name: List files after
+      run: |
+        echo "=== MERGE SONRASI DOSYALAR ==="
+        ls -la
+        echo "=== OLUŞAN DOSYA KONTROLÜ ==="
+        if [ -f "merged.xml" ]; then
+          echo "✅ merged.xml OLUŞTU"
+          echo "=== DOSYA İÇERİĞİ ==="
+          cat merged.xml
+        else
+          echo "❌ merged.xml OLUŞMADI"
+        fi
+        
+    - name: Commit if file created
+      run: |
+        if [ -f "merged.xml" ]; then
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add merged.xml
+          git commit -m "Add merged.xml"
+          git push
+          echo "✅ Commit yapıldı"
+        else
+          echo "❌ Commit yapılamadı - dosya yok"
+        fi
