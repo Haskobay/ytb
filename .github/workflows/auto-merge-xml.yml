@@ -14,21 +14,26 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         
+    - name: List files before merge
+      run: ls -la
+      
     - name: Merge XML files
       run: python merge_xml.py
+      
+    - name: List files after merge
+      run: ls -la
       
     - name: Commit and push changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
+        git status
         git diff --staged --quiet || git commit -m "Auto-merge XML files $(date +'%Y-%m-%d %H:%M:%S')"
         git push
