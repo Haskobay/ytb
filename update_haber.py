@@ -1,58 +1,36 @@
 import os, requests, xmltodict
 
-API_KEY = os.getenv("YT_API_KEY")
+API_KEY = os.getenv("YT_API_KEY_HABER")  # Haber key
 CHANNEL_FILE = "data/channels.txt"
 XML_PATH = "xml/haber.xml"
 
-def read_channels(path):
-    ids = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith("#"):
-                ids.append(line.split()[0])
-    return ids
+# Kanalları oku
+with open(CHANNEL_FILE, "r", encoding="utf-8") as f:
+    channels = [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
-def get_live_videos(channel_id):
-    url = (
-        f"https://www.googleapis.com/youtube/v3/search?"
-        f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
-    )
+media_items = []
+
+# Her kanal için canlı videoları çek
+for cid in channels:
+    url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={cid}&eventType=live&type=video&key={API_KEY}"
     r = requests.get(url)
-    data = r.json()
+    if r.status_code == 200:
+        data = r.json()
+        for item in data.get("items", []):
+            vid = item["id"]["videoId"]
+            title = item["snippet"]["title"]
+            thumb = item["snippet"]["thumbnails"]["high"]["url"]
+            media_items.append({
+                "title": title,
+                "thumb": thumb,
+                "type": "youtube",
+                "src": vid
+            })
 
-    results = []
-    for item in data.get("items", []):
-        vid = item["id"]["videoId"]
-        title = item["snippet"]["title"]
-        thumb = item["snippet"]["thumbnails"]["high"]["url"]
-        results.append({
-            "title": title,
-            "thumb": thumb,
-            "type": "youtube",
-            "src": vid
-        })
-    return results
+# XML’e yaz
+xml_data = {"media": {"media": media_items}}
+xml_str = xmltodict.unparse(xml_data, pretty=True)
 
-def main():
-    print("API anahtarı alındı mı:", bool(API_KEY))
-    channels = read_channels(CHANNEL_FILE)
-    print("Toplam kanal:", len(channels))
-
-    media_items = []
-    for cid in channels:
-        videos = get_live_videos(cid.strip())
-        print(f"Kanal {cid} için {len(videos)} canlı yayın bulundu.")
-        media_items += videos
-
-    # Eğer hiç video yoksa bile XML doğru şekilde oluşsun
-    xml_data = {"medias": {"media": media_items}}
-    xml_str = xmltodict.unparse(xml_data, pretty=True)
-
-    os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
-    with open(XML_PATH, "w", encoding="utf-8") as f:
-        f.write(xml_str)
-    print(f"{XML_PATH} dosyasına {len(media_items)} kayıt yazıldı.")
-
-if __name__ == "__main__":
-    main()
+os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
+with open(XML_PATH, "w", encoding="utf-8") as f:
+    f.write(xml_str)
