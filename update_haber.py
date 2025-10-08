@@ -2,7 +2,7 @@ import os, requests, xmltodict
 
 API_KEY = os.getenv("YT_API_KEY")
 CHANNEL_FILE = "data/channels.txt"
-XML_PATH = "xml/radyo.xml"
+XML_PATH = "xml/haber.xml"
 
 def read_channels(path):
     ids = []
@@ -39,7 +39,7 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    xml_data = {"radyo": {"media": media_items}}
+    xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
 
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
