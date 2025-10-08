@@ -1,4 +1,4 @@
-name: Günlük YouTube Radyo Güncelleme
+name: Günlük YouTube Haber Güncelleme
 
 on:
   schedule:
@@ -27,14 +27,14 @@ jobs:
       - name: XML dosyasını güncelle
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
-        run: python update_radio.py
+        run: python update_haber.py
 
       - name: Commit ve Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          git add xml/radyo.xml
+          git add xml/haber.xml
 
           # Commit değişiklik yoksa hata vermesin
           git diff-index --quiet HEAD || git commit -m "YouTube canlı yayın listesi güncellendi"
