@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<stations><!--Merged on 2025-10-08 02:30:47--><media>
+		<title>NTV Canlı Yayın - Full HD İzle</title>
+		<thumb>https://i.ytimg.com/vi/pqq5c6k70kk/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>pqq5c6k70kk</src>
+	</media>
+	<media>
+		<title>Haber Global TV ᴴᴰ Canlı TV İzle</title>
+		<thumb>https://i.ytimg.com/vi/6BX-NUzBSp8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>6BX-NUzBSp8</src>
+	</media>
+	<media>
+		<title>TRT Haber Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/ZdLjZxaqCeQ/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>ZdLjZxaqCeQ</src>
+	</media>
+<media>
+        <title>TRTHABER</title>
+        <thumb>https://img.youtube.com/vi/ZdLjZxaqCeQ/0.jpg</thumb>
+        <type>youtube</type>
+        <src>UCBgTP2LOFVPmq15W-RH-WXA</src>
+    </media>
+    <media>
+        <title>CNNTÜRK</title>
+        <thumb>https://img.youtube.com/vi/ABtji6e77Uk/0.jpg</thumb>
+        <type>youtube</type>
+        <src>5ozXavTNkgM</src>
+    </media>
+    <media>
+        <title>TGRT HABER</title>
+        <thumb>https://img.youtube.com/vi/TsB0xYOH0AU/0.jpg</thumb>
+        <type>youtube</type>
+        <src>TsB0xYOH0AU</src>
+    </media>
+<media>
+        <title>HABER GLOBAL</title>
+        <thumb>https://img.youtube.com/vi/40eAcb52Tls/0.jpg</thumb>
+        <type>youtube</type>
+        <src>UCtc-a9ZUIg0_5HpsPxEO7Qg</src>
+    </media>
+    <media>
+        <title>AHABER</title>
+        <thumb>https://img.youtube.com/vi/nmY9i63t6qo/0.jpg</thumb>
+        <type>youtube</type>
+        <src>UCKQhfw-lzz0uKnE1fY1PsAA</src>
+    </media>
+ <media>
+        <title>NTV</title>
+        <thumb>https://img.youtube.com/vi/pqq5c6k70kk/0.jpg</thumb>
+        <type>youtube</type>
+        <src>UC9TDTjbOjFB9jADmPhSAPsw</src>
+    </media>
+ <media>
+        <title>HABER TÜRK</title>
+        <thumb>https://img.youtube.com/vi/RNVNlJSUFoE/0.jpg</thumb>
+        <type>youtube</type>
+        <src>RNVNlJSUFoE</src>
+    </media>
+ <media>
+        <title>HALKTV</title>
+        <thumb>https://img.youtube.com/vi/aUTEoiNROkE/0.jpg</thumb>
+        <type>youtube</type>
+        <src>M_sfRrVezWA</src>
+    </media>
+<media>
+        <title>SÖZCÜTV</title>
+        <thumb>https://img.youtube.com/vi/4jTLfFkrH6k/0.jpg</thumb>
+        <type>youtube</type>
+        <src>iCKX1Ex36ps</src>
+    </media>
+</stations>
