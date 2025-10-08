@@ -10,6 +10,9 @@ if not API_KEY:
     raise ValueError("YT_API_KEY_HABER environment variable is not set!")
 
 def read_channels(path):
+    if not os.path.exists(path):
+        print(f"[ERROR] Channel file not found: {path}")
+        return []
     ids = []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
@@ -23,12 +26,16 @@ def get_live_videos(channel_id):
         f"https://www.googleapis.com/youtube/v3/search?"
         f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
     )
-    r = requests.get(url)
-    if r.status_code != 200:
-        print(f"[ERROR] API returned {r.status_code} for channel {channel_id}")
+    try:
+        r = requests.get(url)
+        if r.status_code != 200:
+            print(f"[ERROR] API returned {r.status_code} for channel {channel_id}")
+            return []
+        data = r.json()
+    except requests.RequestException as e:
+        print(f"[ERROR] Request failed for {channel_id}: {e}")
         return []
 
-    data = r.json()
     results = []
     for item in data.get("items", []):
         vid = item["id"]["videoId"]
@@ -48,7 +55,7 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    # Canlı yayın yoksa bilgi ekle
+    # Eğer hiç canlı yayın yoksa mesaj ekle
     if not media_items:
         media_items.append({
             "title": "No live videos currently",
