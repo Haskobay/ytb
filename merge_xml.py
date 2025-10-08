@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import xml.etree.ElementTree as ET
 import os
-from datetime import datetime
+import sys
 
 def merge_xml_files():
     # BURAYA BİRLEŞTİRİLECEK DOSYALARI YAZ
@@ -13,7 +13,9 @@ def merge_xml_files():
     # BURAYA ÇIKTI DOSYASINI YAZ
     output_file = "merged.xml"  # ← BUNU İSTEDİĞİN İSİMLE DEĞİŞTİR
     
-    print("📁 Mevcut dosyalar:", os.listdir('.'))
+    print("🟢 XML birleştirme başlıyor...")
+    print(f"📁 Çalışma dizini: {os.getcwd()}")
+    print(f"📁 Mevcut dosyalar: {os.listdir('.')}")
     
     # Var olan dosyaları bul
     existing_files = [f for f in input_files if os.path.exists(f)]
@@ -21,7 +23,13 @@ def merge_xml_files():
     
     if len(existing_files) < 2:
         print("❌ En az 2 XML dosyası gerekli!")
-        return False
+        # Test için örnek dosyalar oluştur
+        print("🛠️ Test dosyaları oluşturuluyor...")
+        with open("file1.xml", "w") as f:
+            f.write('<?xml version="1.0"?><root><item id="1">Test1</item></root>')
+        with open("file2.xml", "w") as f:
+            f.write('<?xml version="1.0"?><root><item id="2">Test2</item></root>')
+        existing_files = ["file1.xml", "file2.xml"]
     
     try:
         # İlk dosyayı temel al
@@ -37,16 +45,29 @@ def merge_xml_files():
             for element in root:
                 base_root.append(element)
         
-        # Kaydet
-        base_tree.write(output_file, encoding='utf-8', xml_declaration=True)
-        print(f"✅ Dosyalar birleştirildi: {output_file}")
+        # Kaydet - KESİN ÇÖZÜM
+        print(f"💾 Kaydediliyor: {output_file}")
         
-        # Kontrol et
+        # XML declaration ile kaydet
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+            base_tree.write(f, encoding='unicode')
+        
+        print(f"✅ Yazma işlemi tamamlandı: {output_file}")
+        
+        # KONTROL
         if os.path.exists(output_file):
+            file_size = os.path.getsize(output_file)
             print(f"📄 Çıktı dosyası oluşturuldu: {output_file}")
-            print(f"📏 Dosya boyutu: {os.path.getsize(output_file)} byte")
+            print(f"📏 Dosya boyutu: {file_size} byte")
+            
+            # İçeriği göster (ilk 500 karakter)
+            with open(output_file, 'r') as f:
+                content = f.read(500)
+                print(f"📝 İçerik (ilk 500 karakter):\n{content}")
         else:
             print("❌ Çıktı dosyası oluşturulamadı!")
+            return False
             
         return True
         
@@ -57,4 +78,5 @@ def merge_xml_files():
         return False
 
 if __name__ == "__main__":
-    merge_xml_files()
+    success = merge_xml_files()
+    sys.exit(0 if success else 1)
