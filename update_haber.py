@@ -29,11 +29,11 @@ def get_live_videos(channel_id):
     try:
         r = requests.get(url)
         if r.status_code != 200:
-            print(f"[ERROR] API returned {r.status_code} for channel {channel_id}")
+            print(f"[ERROR] API returned {r.status_code} for channel {channel_id}: {r.text}")
             return []
         data = r.json()
     except requests.RequestException as e:
-        print(f"[ERROR] Request failed for {channel_id}: {e}")
+        print(f"[ERROR] Request failed for channel {channel_id}: {e}")
         return []
 
     results = []
@@ -55,7 +55,7 @@ def main():
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    # Eğer hiç canlı yayın yoksa mesaj ekle
+    # Eğer hiç canlı yayın yoksa bilgi ekle
     if not media_items:
         media_items.append({
             "title": "No live videos currently",
