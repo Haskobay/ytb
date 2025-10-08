@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<media></media>
+<media>
+	<media>
+		<title>No live videos currently</title>
+		<thumb></thumb>
+		<type>info</type>
+		<src></src>
+	</media>
+</media>
