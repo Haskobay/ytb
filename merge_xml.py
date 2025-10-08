@@ -1,82 +1,49 @@
 #!/usr/bin/env python3
 import xml.etree.ElementTree as ET
 import os
-import sys
 
 def merge_xml_files():
-    # BURAYA BİRLEŞTİRİLECEK DOSYALARI YAZ
-    input_files = [
-        "https://raw.githubusercontent.com/Haskobay/ytb/refs/heads/main/xml/radyo.xml",    # ← BUNLARI KENDİ DOSYALARINLA DEĞİŞTİR
-        "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/habertv.xml",    # ← BUNLARI KENDİ DOSYALARINLA DEĞİŞTİR
-    ]
-    
-    # BURAYA ÇIKTI DOSYASINI YAZ
-    output_file = "merged.xml"  # ← BUNU İSTEDİĞİN İSİMLE DEĞİŞTİR
+    # BURAYA BİRLEŞTİRİLECEK 2 XML DOSYASINI YAZ
+    file1 = "https://raw.githubusercontent.com/Haskobay/ytb/refs/heads/main/xml/radyo.xml"    # ← İlk dosya
+    file2 = "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/habertv.xml"    # ← İkinci dosya
+    output_file = "merged.xml"  # ← Çıktı dosyası
     
     print("🟢 XML birleştirme başlıyor...")
-    print(f"📁 Çalışma dizini: {os.getcwd()}")
-    print(f"📁 Mevcut dosyalar: {os.listdir('.')}")
     
-    # Var olan dosyaları bul
-    existing_files = [f for f in input_files if os.path.exists(f)]
-    print(f"🔍 Bulunan XML dosyaları: {existing_files}")
-    
-    if len(existing_files) < 2:
-        print("❌ En az 2 XML dosyası gerekli!")
-        # Test için örnek dosyalar oluştur
-        print("🛠️ Test dosyaları oluşturuluyor...")
-        with open("file1.xml", "w") as f:
-            f.write('<?xml version="1.0"?><root><item id="1">Test1</item></root>')
-        with open("file2.xml", "w") as f:
-            f.write('<?xml version="1.0"?><root><item id="2">Test2</item></root>')
-        existing_files = ["file1.xml", "file2.xml"]
+    # Dosyalar var mı kontrol et
+    if not os.path.exists(file1):
+        print(f"❌ {file1} bulunamadı!")
+        return False
+    if not os.path.exists(file2):
+        print(f"❌ {file2} bulunamadı!")
+        return False
     
     try:
-        # İlk dosyayı temel al
-        print(f"📖 Temel dosya: {existing_files[0]}")
-        base_tree = ET.parse(existing_files[0])
-        base_root = base_tree.getroot()
+        # İlk dosyayı oku
+        print(f"📖 Okunuyor: {file1}")
+        tree1 = ET.parse(file1)
+        root1 = tree1.getroot()
         
-        # Diğer dosyaları birleştir
-        for xml_file in existing_files[1:]:
-            print(f"➕ Birleştiriliyor: {xml_file}")
-            tree = ET.parse(xml_file)
-            root = tree.getroot()
-            for element in root:
-                base_root.append(element)
+        # İkinci dosyayı oku
+        print(f"📖 Okunuyor: {file2}")
+        tree2 = ET.parse(file2)
+        root2 = tree2.getroot()
         
-        # Kaydet - KESİN ÇÖZÜM
+        # İkinci dosyanın TÜM içeriğini birinciye ekle
+        print("🔗 Dosyalar birleştiriliyor...")
+        for element in root2:
+            root1.append(element)
+        
+        # Kaydet
         print(f"💾 Kaydediliyor: {output_file}")
+        tree1.write(output_file, encoding='utf-8', xml_declaration=True)
         
-        # XML declaration ile kaydet
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-            base_tree.write(f, encoding='unicode')
-        
-        print(f"✅ Yazma işlemi tamamlandı: {output_file}")
-        
-        # KONTROL
-        if os.path.exists(output_file):
-            file_size = os.path.getsize(output_file)
-            print(f"📄 Çıktı dosyası oluşturuldu: {output_file}")
-            print(f"📏 Dosya boyutu: {file_size} byte")
-            
-            # İçeriği göster (ilk 500 karakter)
-            with open(output_file, 'r') as f:
-                content = f.read(500)
-                print(f"📝 İçerik (ilk 500 karakter):\n{content}")
-        else:
-            print("❌ Çıktı dosyası oluşturulamadı!")
-            return False
-            
+        print(f"✅ Başarılı! {output_file} oluşturuldu.")
         return True
         
     except Exception as e:
         print(f"❌ Hata: {e}")
-        import traceback
-        traceback.print_exc()
         return False
 
 if __name__ == "__main__":
-    success = merge_xml_files()
-    sys.exit(0 if success else 1)
+    merge_xml_files()
