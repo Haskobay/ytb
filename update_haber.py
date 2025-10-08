@@ -19,6 +19,9 @@ def get_live_videos(channel_id):
         f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
     )
     r = requests.get(url)
+    if r.status_code != 200:
+        print(f"❌ Hata: Kanal {channel_id} - {r.status_code}")
+        return []
     data = r.json()
     results = []
     for item in data.get("items", []):
@@ -34,17 +37,21 @@ def get_live_videos(channel_id):
     return results
 
 def main():
+    if not API_KEY:
+        raise ValueError("❌ YT_API_KEY bulunamadı. Repo secrets kontrol et.")
     channels = read_channels(CHANNEL_FILE)
     media_items = []
     for cid in channels:
         media_items += get_live_videos(cid.strip())
 
-    xml_data = {"media": {"media": media_items}}
+    xml_data = {"medias": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
 
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
     with open(XML_PATH, "w", encoding="utf-8") as f:
         f.write(xml_str)
+
+    print(f"✅ {len(media_items)} yayın XML dosyasına yazıldı: {XML_PATH}")
 
 if __name__ == "__main__":
     main()
