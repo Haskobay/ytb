@@ -1,9 +1,9 @@
 name: Merge XML Lists
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   merge:
@@ -11,21 +11,25 @@ jobs:
 
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: 3.x
 
-    - name: Install Requests
+    - name: Install dependencies
       run: pip install requests
 
-    - name: Merge XML Lists
+    - name: Merge XML files
       run: python birles_xml.py
 
-    - name: Upload Combined XML as Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: combined-xml
-        path: combined.xml
+    - name: Commit and Push Combined XML
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add combined.xml
+        git commit -m "Auto-update: combined.xml"
+        git push
