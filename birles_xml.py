@@ -3,7 +3,7 @@ import requests
 
 # ---- Ayarlar ----
 url1 = "https://raw.githubusercontent.com/Haskobay/ytb/refs/heads/main/xml/radyo.xml"
-url2 = "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/izlecan.xml"
+url2 = "https://raw.githubusercontent.com/Haskobay/ixemel/refs/heads/main/habertv.xml"
 
 def fetch_xml(url):
     print(f"Fetching: {url}")
