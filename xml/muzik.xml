@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>No live or upcoming videos</title>
+		<title>Eski liste duruyor kod başarılı</title>
 		<thumb></thumb>
-		<type>info</type>
+		<type>CHATGTP</type>
 		<src></src>
 	</media>
 </media>
