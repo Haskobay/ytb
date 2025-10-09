@@ -1,8 +1,11 @@
-import os, requests, xmltodict
+import os
+import requests
+import xmltodict
 
-API_KEY = os.getenv("YT_API_KEY_HABER")
-CHANNEL_FILE = "data/haber.txt"
-XML_PATH = "xml/haber.xml"
+API_KEY = os.getenv("YT_API_KEY_CANLI")
+CHANNEL_FILE = "data/muzik.txt"
+XML_PATH = "xml/muzik.xml"
+
 
 def read_channels(path):
     ids = []
@@ -13,13 +16,15 @@ def read_channels(path):
                 ids.append(line.split()[0])
     return ids
 
-def get_live_videos(channel_id):
+
+def get_videos(channel_id, event_type):
     url = (
         f"https://www.googleapis.com/youtube/v3/search?"
-        f"part=snippet&channelId={channel_id}&eventType=live&type=video&key={API_KEY}"
+        f"part=snippet&channelId={channel_id}&eventType={event_type}&type=video&key={API_KEY}"
     )
     r = requests.get(url)
     data = r.json()
+
     results = []
     for item in data.get("items", []):
         vid = item["id"]["videoId"]
@@ -33,11 +38,23 @@ def get_live_videos(channel_id):
         })
     return results
 
+
 def main():
     channels = read_channels(CHANNEL_FILE)
     media_items = []
+
     for cid in channels:
-        media_items += get_live_videos(cid.strip())
+        live_videos = get_videos(cid.strip(), "live")
+        upcoming_videos = get_videos(cid.strip(), "upcoming")
+        media_items += live_videos + upcoming_videos
+
+    if not media_items:
+        media_items = [{
+            "title": "No live or upcoming videos",
+            "thumb": "",
+            "type": "info",
+            "src": ""
+        }]
 
     xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
@@ -45,6 +62,7 @@ def main():
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
     with open(XML_PATH, "w", encoding="utf-8") as f:
         f.write(xml_str)
+
 
 if __name__ == "__main__":
     main()
