@@ -2,7 +2,7 @@ import os
 import requests
 import xmltodict
 
-API_KEY = os.getenv("YT_API_KEY_CANLI")
+API_KEY = os.getenv("YT_API_KEY_MUZIK")
 CHANNEL_FILE = "data/muzik.txt"
 XML_PATH = "xml/muzik.xml"
 
@@ -25,6 +25,11 @@ def get_videos(channel_id, event_type):
     r = requests.get(url)
     data = r.json()
 
+    # Eğer API kota hatası dönerse logla
+    if "error" in data:
+        print(f"[API ERROR] {data['error']['message']}", flush=True)
+        return []
+
     results = []
     for item in data.get("items", []):
         vid = item["id"]["videoId"]
@@ -46,15 +51,21 @@ def main():
     for cid in channels:
         live_videos = get_videos(cid.strip(), "live")
         upcoming_videos = get_videos(cid.strip(), "upcoming")
+        print(f"[DEBUG] Kanal: {cid} | Canlı: {len(live_videos)} | Upcoming: {len(upcoming_videos)}", flush=True)
         media_items += live_videos + upcoming_videos
 
     if not media_items:
-        media_items = [{
-            "title": "No live or upcoming videos",
-            "thumb": "",
-            "type": "info",
-            "src": ""
-        }]
+        print("[INFO] Yeni veri yok veya API kota doldu. Eski XML korunacak.", flush=True)
+        if os.path.exists(XML_PATH):
+            return  # Hiçbir şey yazma, mevcut XML kalsın
+        else:
+            # İlk çalıştırma ise yine de bir XML oluştur
+            media_items = [{
+                "title": "No live or upcoming videos",
+                "thumb": "",
+                "type": "info",
+                "src": ""
+            }]
 
     xml_data = {"media": {"media": media_items}}
     xml_str = xmltodict.unparse(xml_data, pretty=True)
@@ -62,6 +73,8 @@ def main():
     os.makedirs(os.path.dirname(XML_PATH), exist_ok=True)
     with open(XML_PATH, "w", encoding="utf-8") as f:
         f.write(xml_str)
+
+    print(f"[OK] {XML_PATH} başarıyla güncellendi.", flush=True)
 
 
 if __name__ == "__main__":
