@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Deniz Eyvazoğlu Behar ile Gün Ortası  | 25 Ekim 2025 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/Gpk1L6EAXlM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>Gpk1L6EAXlM</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayını İzle #Canlı</title>
 		<thumb>https://i.ytimg.com/vi/dK96AZbCns0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -13,22 +19,28 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
+		<title>ABD-Venezuela Arasında Yeni Savaş mı? | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/nOhSnPqEUa8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>nOhSnPqEUa8</src>
+	</media>
+	<media>
 		<title>LIVE: Latest News Headlines and Events From All Over the World</title>
 		<thumb>https://i.ytimg.com/vi/gMWls8NtaNo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>gMWls8NtaNo</src>
 	</media>
 	<media>
+		<title>#CANLI Gülinay Selçuk ile Haber Bülteni</title>
+		<thumb>https://i.ytimg.com/vi/ObtYbRxYYII/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>ObtYbRxYYII</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
-	</media>
-	<media>
-		<title>TELE1 CANLI YAYIN ᴴᴰ</title>
-		<thumb>https://i.ytimg.com/vi/elQyWeeDCYU/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>elQyWeeDCYU</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -61,6 +73,12 @@
 		<src>pqq5c6k70kk</src>
 	</media>
 	<media>
+		<title>CANLI | Cumhurbaşkanı Erdoğan konuşuyor</title>
+		<thumb>https://i.ytimg.com/vi/AVj9qn8w-bQ/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>AVj9qn8w-bQ</src>
+	</media>
+	<media>
 		<title>Habertürk TV Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -73,16 +91,28 @@
 		<src>EqoCJ8BPxtE</src>
 	</media>
 	<media>
+		<title>CANLI | Cumhurbaşkanı Erdoğan Açıklamalarda Bulunuyor</title>
+		<thumb>https://i.ytimg.com/vi/yu4eA4b89vg/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>yu4eA4b89vg</src>
+	</media>
+	<media>
 		<title>TVNET ​Canlı Yayın | Son Gelişmeler, Son Dakika Haberler</title>
 		<thumb>https://i.ytimg.com/vi/ZMfC419lAVc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ZMfC419lAVc</src>
 	</media>
 	<media>
-		<title>TRT Haber Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/sxxTDO1C1R4/hqdefault_live.jpg</thumb>
+		<title>Geleceğin Teknolojisi | Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/XySdwYJgDsk/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>sxxTDO1C1R4</src>
+		<src>XySdwYJgDsk</src>
+	</media>
+	<media>
+		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
+		<thumb>https://i.ytimg.com/vi/xj4M0z7gM0c/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>xj4M0z7gM0c</src>
 	</media>
 	<media>
 		<title>A Haber Canlı - 🔴 #Canlı Yayın ᴴᴰ - Canlı TV İzle | A Haber</title>
@@ -113,5 +143,11 @@
 		<thumb>https://i.ytimg.com/vi/UDyLAx1tt7E/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>UDyLAx1tt7E</src>
+	</media>
+	<media>
+		<title>#CANLI | Cumhurbaşkanı Recep Tayyip Erdoğan Konuşuyor!</title>
+		<thumb>https://i.ytimg.com/vi/GGhoG93RaxU/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>GGhoG93RaxU</src>
 	</media>
 </media>
