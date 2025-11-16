@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Deniz Eyvazoğlu Behar ile Gün Ortası  | 15 Kasım  2025 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/DCgHkEjbltk/hqdefault_live.jpg</thumb>
+		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayını İzle #Canlı</title>
+		<thumb>https://i.ytimg.com/vi/dK96AZbCns0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>DCgHkEjbltk</src>
+		<src>dK96AZbCns0</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -13,10 +13,10 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
-		<title>O Otelin Sahibi CNN TÜRK&amp;#39;e Konuştu! | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/o3Pg1FcpWp0/hqdefault_live.jpg</thumb>
+		<title>LIVE: Latest News Headlines and Events From All Over the World</title>
+		<thumb>https://i.ytimg.com/vi/gMWls8NtaNo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>o3Pg1FcpWp0</src>
+		<src>gMWls8NtaNo</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -25,22 +25,10 @@
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>Gülinay Selçuk ile Haber Bülteni</title>
-		<thumb>https://i.ytimg.com/vi/OylUKjXlmwY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>OylUKjXlmwY</src>
-	</media>
-	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
 		<thumb>https://i.ytimg.com/vi/VBU0QX6brew/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>VBU0QX6brew</src>
-	</media>
-	<media>
-		<title>#CANLI | Işın Eliçin ile Sınırsız</title>
-		<thumb>https://i.ytimg.com/vi/l4p5QDyJE60/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>l4p5QDyJE60</src>
 	</media>
 	<media>
 		<title>24 TV Canlı İzle #Haber #SonDakika</title>
@@ -53,6 +41,12 @@
 		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>qFKEi2BqHYc</src>
+	</media>
+	<media>
+		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
+		<thumb>https://i.ytimg.com/vi/6g_DvD8e2T0/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>6g_DvD8e2T0</src>
 	</media>
 	<media>
 		<title>NTV Canlı Yayın - Full HD İzle</title>
@@ -85,12 +79,6 @@
 		<src>rD3bKBMXKKY</src>
 	</media>
 	<media>
-		<title>Geleceğin Teknolojisi | Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/tAFv3PZN6Kk/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>tAFv3PZN6Kk</src>
-	</media>
-	<media>
 		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/xj4M0z7gM0c/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -109,7 +97,7 @@
 		<src>4Vyvtf9tcP8</src>
 	</media>
 	<media>
-		<title>Türkiye Şehitlerini Uğurluyor | Flash Haber - 🔴 Canlı Yayın - Son Dakika Haberler</title>
+		<title>Flash Haber - 🔴 Canlı Yayın - Son Dakika Haberler</title>
 		<thumb>https://i.ytimg.com/vi/5BN4UOUVOFw/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>5BN4UOUVOFw</src>
@@ -131,5 +119,11 @@
 		<thumb>https://i.ytimg.com/vi/UDyLAx1tt7E/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>UDyLAx1tt7E</src>
+	</media>
+	<media>
+		<title>#CANLI I KRT TV CANLI YAYIN</title>
+		<thumb>https://i.ytimg.com/vi/sKTq8zmzBvo/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>sKTq8zmzBvo</src>
 	</media>
 </media>
