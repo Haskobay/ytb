@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Aslıhan Yıldız ile Gün İçinden |  30 Ocak 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/UpTnecxrRiY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>UpTnecxrRiY</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayını İzle #Canlı</title>
 		<thumb>https://i.ytimg.com/vi/dK96AZbCns0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>dK96AZbCns0</src>
+	</media>
+	<media>
+		<title>🔴 #CANLI | Göksu Öngören Özgür ile Bugün | 30 Ocak 2026 | HABER #CNNTÜRK</title>
+		<thumb>https://i.ytimg.com/vi/uKp0dXxepVM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>uKp0dXxepVM</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -17,6 +29,12 @@
 		<thumb>https://i.ytimg.com/vi/gMWls8NtaNo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>gMWls8NtaNo</src>
+	</media>
+	<media>
+		<title>#CANLI Öncesi Sonrası</title>
+		<thumb>https://i.ytimg.com/vi/GFVnxjD0NsY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>GFVnxjD0NsY</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -107,6 +125,12 @@
 		<thumb>https://i.ytimg.com/vi/4k9MUJyaJ_s/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>4k9MUJyaJ_s</src>
+	</media>
+	<media>
+		<title>#Canlı | Mine Çakmakcı ile Haber Saati</title>
+		<thumb>https://i.ytimg.com/vi/b4j5laXUPVw/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>b4j5laXUPVw</src>
 	</media>
 	<media>
 		<title>TGRT EU Canlı Yayını</title>
