@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Aslıhan Yıldız ile Gün İçinden | 9 Şubat 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/rwKYDF_p0jg/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>rwKYDF_p0jg</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayını İzle #Canlı</title>
 		<thumb>https://i.ytimg.com/vi/dK96AZbCns0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>dK96AZbCns0</src>
-	</media>
-	<media>
-		<title>Milliyetçi Hareket Partisi 57 Yaşında! Devlet Bahçeli: İlk Günkü Gibi Türkçüyüz | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/rnAU4B-JIeA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>rnAU4B-JIeA</src>
-	</media>
-	<media>
-		<title>🔴 #CANLI | Göksu Öngören Özgür ile Bugün | 9 Şubat 2026 | HABER #CNNTÜRK</title>
-		<thumb>https://i.ytimg.com/vi/HNCiGHHZSRs/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>HNCiGHHZSRs</src>
-	</media>
-	<media>
-		<title>🔴 #CANLI | Büşra Arslantaş ile Günlük | 9 Şubat 2026 | HABER #CNNTÜRK</title>
-		<thumb>https://i.ytimg.com/vi/hWdwK1h-Sjc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>hWdwK1h-Sjc</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -43,12 +19,6 @@
 		<src>gMWls8NtaNo</src>
 	</media>
 	<media>
-		<title>#CANLI Öncesi Sonrası</title>
-		<thumb>https://i.ytimg.com/vi/RTFrjgvRqxM/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>RTFrjgvRqxM</src>
-	</media>
-	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -59,12 +29,6 @@
 		<thumb>https://i.ytimg.com/vi/na_jT2Q1rfA/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>na_jT2Q1rfA</src>
-	</media>
-	<media>
-		<title>#CANLI I Gizem Çetin ile Parantez | #irade</title>
-		<thumb>https://i.ytimg.com/vi/TN_7NhjjzJ8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>TN_7NhjjzJ8</src>
 	</media>
 	<media>
 		<title>24 TV Canlı İzle #Haber #SonDakika</title>
@@ -115,12 +79,6 @@
 		<src>EvlMtGiuNE4</src>
 	</media>
 	<media>
-		<title>Kerim Aktacir ile Parantez | Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/-kLplkUdjbE/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>-kLplkUdjbE</src>
-	</media>
-	<media>
 		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/yIbNbhHaWXU/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -133,6 +91,12 @@
 		<src>nmY9i63t6qo</src>
 	</media>
 	<media>
+		<title>Akit TV Canlı Yayını</title>
+		<thumb>https://i.ytimg.com/vi/D2LymuOpeiY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>D2LymuOpeiY</src>
+	</media>
+	<media>
 		<title>Flash Haber - 🔴 Canlı Yayın - Son Dakika Haberler</title>
 		<thumb>https://i.ytimg.com/vi/5BN4UOUVOFw/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -143,12 +107,6 @@
 		<thumb>https://i.ytimg.com/vi/4k9MUJyaJ_s/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>4k9MUJyaJ_s</src>
-	</media>
-	<media>
-		<title>#Canlı | ROK ile Haber Yorum</title>
-		<thumb>https://i.ytimg.com/vi/-g4FSCU-PBw/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>-g4FSCU-PBw</src>
 	</media>
 	<media>
 		<title>TGRT EU Canlı Yayını</title>
