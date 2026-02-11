@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Aslıhan Yıldız ile Gün İçinden | 11 Şubat 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/BOtrcx25KsU/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>BOtrcx25KsU</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayını İzle #Canlı</title>
 		<thumb>https://i.ytimg.com/vi/dK96AZbCns0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>dK96AZbCns0</src>
+	</media>
+	<media>
+		<title>Cumhurbaşkanı Erdoğan DEM Heyetini Kabul Edecek! I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/SNvLpwyLNSs/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>SNvLpwyLNSs</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -19,6 +31,12 @@
 		<src>gMWls8NtaNo</src>
 	</media>
 	<media>
+		<title>#CANLI Öncesi Sonrası | Senem Toluay Ilgaz</title>
+		<thumb>https://i.ytimg.com/vi/bxyxMI6MYFI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>bxyxMI6MYFI</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -29,6 +47,18 @@
 		<thumb>https://i.ytimg.com/vi/na_jT2Q1rfA/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>na_jT2Q1rfA</src>
+	</media>
+	<media>
+		<title>#CANLI I Akın Gürlek Bugün Yemin Edecek... CHP, Milletvekillerinin Eksiksiz Katılmasını İstedi!</title>
+		<thumb>https://i.ytimg.com/vi/iw7FFHtrGFw/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>iw7FFHtrGFw</src>
+	</media>
+	<media>
+		<title>#CANLI I Gizem Çetin ile Parantez | #değişim</title>
+		<thumb>https://i.ytimg.com/vi/nrXDk0COjyo/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>nrXDk0COjyo</src>
 	</media>
 	<media>
 		<title>24 TV Canlı İzle #Haber #SonDakika</title>
@@ -79,6 +109,12 @@
 		<src>EvlMtGiuNE4</src>
 	</media>
 	<media>
+		<title>Kerim Aktacir ile Parantez | Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/k8jxWRgrY7s/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>k8jxWRgrY7s</src>
+	</media>
+	<media>
 		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/yIbNbhHaWXU/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -109,15 +145,21 @@
 		<src>8Zd7rBS0bkI</src>
 	</media>
 	<media>
-		<title>TGRT EU Canlı Yayını</title>
-		<thumb>https://i.ytimg.com/vi/jHNLLziGzcQ/hqdefault_live.jpg</thumb>
+		<title>#Canlı | Mine Çakmakcı ile Haber Saati</title>
+		<thumb>https://i.ytimg.com/vi/OS6I5CgsebM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>jHNLLziGzcQ</src>
+		<src>OS6I5CgsebM</src>
 	</media>
 	<media>
 		<title>BENGÜ TÜRK - Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/Dhy7yHeNZWM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Dhy7yHeNZWM</src>
+	</media>
+	<media>
+		<title>#CANLI | Akın gürlek Meclis&amp;#39;te yemin edecek: CHP&amp;#39;lilerden TBMM&amp;#39;de büyük protesto</title>
+		<thumb>https://i.ytimg.com/vi/lj7o12kqD98/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>lj7o12kqD98</src>
 	</media>
 </media>
