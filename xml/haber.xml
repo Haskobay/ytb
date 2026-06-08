@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>İran&amp;#39;dan İsrail&amp;#39;e yeni füze salvosu! Hayfa&amp;#39;da son durum #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/FMvlb_7Pmao/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>FMvlb_7Pmao</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -17,6 +11,12 @@
 		<thumb>https://i.ytimg.com/vi/-xsDwvZquTk/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>-xsDwvZquTk</src>
+	</media>
+	<media>
+		<title>Trump: &amp;quot;İsrail, Lübnan&amp;#39;ı Bizden Habersiz Vurdu!&amp;quot; |  CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/DftBLO1Ez40/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>DftBLO1Ez40</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -31,10 +31,10 @@
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Süheyla Demir ile Günaydın Türkiye</title>
-		<thumb>https://i.ytimg.com/vi/HY-TEOipIwY/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Ece Üner ile Halk Ana Haber | #hata</title>
+		<thumb>https://i.ytimg.com/vi/zAuqglevpno/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>HY-TEOipIwY</src>
+		<src>zAuqglevpno</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -53,6 +53,12 @@
 		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>qFKEi2BqHYc</src>
+	</media>
+	<media>
+		<title>#CANLI l Kübra Par ile tv100 Ana Haber l 08 Haziran 2026</title>
+		<thumb>https://i.ytimg.com/vi/9DTg2pAPRm8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>9DTg2pAPRm8</src>
 	</media>
 	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
@@ -109,22 +115,28 @@
 		<src>a9aEQhgQJ4Q</src>
 	</media>
 	<media>
+		<title>CHP&amp;#39;de grup toplantısı muamması: Kim konuşacak? | Çiğdem Akdemir ile Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/ue-nDTwSYnE/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>ue-nDTwSYnE</src>
+	</media>
+	<media>
 		<title>📡 ÜLKE TV Canlı Yayın ᴴᴰ izle</title>
 		<thumb>https://i.ytimg.com/vi/YwUf2IfT4Pw/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>YwUf2IfT4Pw</src>
 	</media>
 	<media>
+		<title>İran İsrail&amp;#39;i Balistik Füzelerle Vurdu! Trump&amp;#39;tan Masaya Dön Çağrısı - 🔴 #Canlı Yayın ᴴᴰ - A Haber</title>
+		<thumb>https://i.ytimg.com/vi/80siYVwwo-M/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>80siYVwwo-M</src>
+	</media>
+	<media>
 		<title>A Haber Canlı - 🔴 #Canlı Yayın ᴴᴰ - Canlı TV İzle | A Haber</title>
 		<thumb>https://i.ytimg.com/vi/ftshgiSRZOk/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ftshgiSRZOk</src>
-	</media>
-	<media>
-		<title>İran: İsrail Saldırırsa Tüm ABD Üsleri Hedefimizde! 🔴 #Canlı Yayın ᴴᴰ</title>
-		<thumb>https://i.ytimg.com/vi/SLLNZr0DXnA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>SLLNZr0DXnA</src>
 	</media>
 	<media>
 		<title>Akit TV Canlı Yayını</title>
@@ -137,6 +149,12 @@
 		<thumb>https://i.ytimg.com/vi/UHXqe9qf_ZM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>UHXqe9qf_ZM</src>
+	</media>
+	<media>
+		<title>#Canlı | Neşe Berber ile Soruyoruz</title>
+		<thumb>https://i.ytimg.com/vi/7D5Dk5byXj4/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>7D5Dk5byXj4</src>
 	</media>
 	<media>
 		<title>LİDER HABER - 🔴 Canlı Yayın ᴴᴰ - Canlı TV</title>
@@ -155,6 +173,12 @@
 		<thumb>https://i.ytimg.com/vi/W-wgfi-XdN8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>W-wgfi-XdN8</src>
+	</media>
+	<media>
+		<title>CHP&amp;#39;de Salı Gerilimi: Grup Toplantısı&amp;#39;nı Kim Yapacak? - Burak Kabakçılı ile TV5 Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/_HRowcHc52Q/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>_HRowcHc52Q</src>
 	</media>
 	<media>
 		<title>#CANLI I KRT TV CANLI YAYIN</title>
