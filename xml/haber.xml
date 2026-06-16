@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Deniz Çağlayan Cengiz ile Ana Haber | 16 Haziran 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/WgBbSCaq0YQ/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>WgBbSCaq0YQ</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -13,10 +19,28 @@
 		<src>rBWT-BC_xdE</src>
 	</media>
 	<media>
+		<title>ABD&amp;#39;nin B-52 Bombardıman Uçağı Düştü! | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/Y_nbPG4CEfw/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>Y_nbPG4CEfw</src>
+	</media>
+	<media>
+		<title>Körfez, Anlaşmaya Temkinli Yaklaşıyor! Orta Doğu&amp;#39;da Son Durum Nasıl? | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/zMsSwCVxiCM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>zMsSwCVxiCM</src>
+	</media>
+	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
 		<thumb>https://i.ytimg.com/vi/6N8_r2uwLEc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>6N8_r2uwLEc</src>
+	</media>
+	<media>
+		<title>#CANLI Serdar Cebe İle Sözcü Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/UaCLSdKcVPc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>UaCLSdKcVPc</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -25,10 +49,10 @@
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Süheyla Demir ile Günaydın Türkiye</title>
-		<thumb>https://i.ytimg.com/vi/RmcxP2VhD5M/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Ece Üner ile Halk Ana Haber | #şart</title>
+		<thumb>https://i.ytimg.com/vi/hAWN24euKdY/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>RmcxP2VhD5M</src>
+		<src>hAWN24euKdY</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -49,6 +73,12 @@
 		<src>qFKEi2BqHYc</src>
 	</media>
 	<media>
+		<title>#CANLI l Ahmet Yeşiltepe ile tv100 Ana Haber l 16 Haziran 2026</title>
+		<thumb>https://i.ytimg.com/vi/TI6RK4Zbgkk/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>TI6RK4Zbgkk</src>
+	</media>
+	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ebVRSmBYC60/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -61,12 +91,6 @@
 		<src>pqq5c6k70kk</src>
 	</media>
 	<media>
-		<title>LIVE: Eilmeldungen und aktuelle Entwicklungen aus aller Welt</title>
-		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>s4KIyYkwiM0</src>
-	</media>
-	<media>
 		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -77,6 +101,12 @@
 		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>RNVNlJSUFoE</src>
+	</media>
+	<media>
+		<title>LIVE: Eilmeldungen und aktuelle Entwicklungen aus aller Welt</title>
+		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>s4KIyYkwiM0</src>
 	</media>
 	<media>
 		<title>LIVE: Iran-Israel Conflict | US Response &amp;amp; Middle East Crisis Updates</title>
@@ -95,6 +125,12 @@
 		<thumb>https://i.ytimg.com/vi/Z5bqy4gwEmc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Z5bqy4gwEmc</src>
+	</media>
+	<media>
+		<title>TRT Haber Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/3yPLs9pistQ/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>3yPLs9pistQ</src>
 	</media>
 	<media>
 		<title>📺 ÜLKE TV Canlı Yayın ᴴᴰ izle #tv</title>
@@ -133,15 +169,21 @@
 		<src>uel_LrHbQCw</src>
 	</media>
 	<media>
+		<title>#Canlı | Özgür Tör ile Büyük Strateji</title>
+		<thumb>https://i.ytimg.com/vi/iAJu5Ix8A60/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>iAJu5Ix8A60</src>
+	</media>
+	<media>
 		<title>BENGÜ TÜRK - Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/W-wgfi-XdN8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>W-wgfi-XdN8</src>
 	</media>
 	<media>
-		<title>#CANLI I KRT TV CANLI YAYIN</title>
-		<thumb>https://i.ytimg.com/vi/LBffKHlCx8U/hqdefault_live.jpg</thumb>
+		<title>#CANLI | KRT TV Canlı Yayını</title>
+		<thumb>https://i.ytimg.com/vi/R8sVr1z_Cug/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>LBffKHlCx8U</src>
+		<src>R8sVr1z_Cug</src>
 	</media>
 </media>
