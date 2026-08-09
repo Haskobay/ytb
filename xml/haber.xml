@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Deniz Eyvazoğlu Behar ile Gün Ortası | 9 Ağustos 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/phnuJ4GwKL0/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>phnuJ4GwKL0</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
+	</media>
+	<media>
+		<title>İran-ABD Yeni Anlaşma Yapacak Mı? I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/Ht7sdEDlHXk/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>Ht7sdEDlHXk</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -19,10 +31,22 @@
 		<src>oAzT8NQkjm8</src>
 	</media>
 	<media>
+		<title>#CANLI Haber Bülteni | Merve Ekinci</title>
+		<thumb>https://i.ytimg.com/vi/m3mhSIrm55Q/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>m3mhSIrm55Q</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
+	</media>
+	<media>
+		<title>#CANLI | Serhan Başbahçıvan ile Öğle Haberleri</title>
+		<thumb>https://i.ytimg.com/vi/dcpXl0LJ-10/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>dcpXl0LJ-10</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -131,6 +155,12 @@
 		<thumb>https://i.ytimg.com/vi/KRm4U6CNxb0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>KRm4U6CNxb0</src>
+	</media>
+	<media>
+		<title>#Canlı | İsa Kalender ile Piyasa Gayrimenkul</title>
+		<thumb>https://i.ytimg.com/vi/xLXjzhOfUec/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>xLXjzhOfUec</src>
 	</media>
 	<media>
 		<title>TGRT EU Canlı Yayını</title>
