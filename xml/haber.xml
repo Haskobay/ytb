@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Deniz Eyvazoğlu Behar ile Gün Ortası | 8 Ağustos 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/H1ofsYO7B3Q/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>H1ofsYO7B3Q</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
-	</media>
-	<media>
-		<title>Petro-Doların Sonu Mu Geldi? | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/q7plhWXi4Ik/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>q7plhWXi4Ik</src>
-	</media>
-	<media>
-		<title>CANLI YAYIN 🔴| &amp;quot;HÜRMÜZ AÇILABİLİR, GÖRÜŞÜYORUZ&amp;quot; I SON DAKİKA HABER</title>
-		<thumb>https://i.ytimg.com/vi/oAzT8NQkjm8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>oAzT8NQkjm8</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -31,16 +13,16 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
+		<title>CANLI YAYIN 🔴| &amp;quot;HÜRMÜZ AÇILABİLİR, GÖRÜŞÜYORUZ&amp;quot; I SON DAKİKA HABER</title>
+		<thumb>https://i.ytimg.com/vi/oAzT8NQkjm8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>oAzT8NQkjm8</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
-	</media>
-	<media>
-		<title>#CANLI | Serhan Başbahçıvan ile Öğle Haberleri</title>
-		<thumb>https://i.ytimg.com/vi/iSvPzGXtF_Q/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>iSvPzGXtF_Q</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -49,16 +31,16 @@
 		<src>jHMsvYrf-UA</src>
 	</media>
 	<media>
-		<title>🔴 Günün Önemli Gelişmeleri ve Son Dakika Haberleri İle 24 TV Canlı İzle - #Canlı #Haber #SonDakika</title>
-		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>qFKEi2BqHYc</src>
-	</media>
-	<media>
 		<title>🔴 24 TV Canlı İzle</title>
 		<thumb>https://i.ytimg.com/vi/6B-nPOdP720/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>6B-nPOdP720</src>
+	</media>
+	<media>
+		<title>🔴 Günün Önemli Gelişmeleri ve Son Dakika Haberleri İle 24 TV Canlı İzle - #Canlı #Haber #SonDakika</title>
+		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>qFKEi2BqHYc</src>
 	</media>
 	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
@@ -85,16 +67,16 @@
 		<src>RNVNlJSUFoE</src>
 	</media>
 	<media>
-		<title>LIVE: Eilmeldungen und aktuelle Entwicklungen aus aller Welt</title>
-		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>s4KIyYkwiM0</src>
-	</media>
-	<media>
 		<title>LIVE: Iran-Israel Conflict | US Response &amp;amp; Middle East Crisis Updates</title>
 		<thumb>https://i.ytimg.com/vi/CJHVSYHpVvc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>CJHVSYHpVvc</src>
+	</media>
+	<media>
+		<title>LIVE: Eilmeldungen und aktuelle Entwicklungen aus aller Welt</title>
+		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>s4KIyYkwiM0</src>
 	</media>
 	<media>
 		<title>SON DAKİKA HABERLERİ - Haber Global TV ᴴᴰ Canlı TV İzle</title>
@@ -127,7 +109,7 @@
 		<src>HVSxZ7TCqz0</src>
 	</media>
 	<media>
-		<title>Türkiye - Suudi Arabistan - Pakistan Arasında Tarihi Savunma Paktı! 🔴 #Canlı Yayın ᴴᴰ</title>
+		<title>Terörsüz Türkiye Yasası Meclis Komisyonu&amp;#39;nda Kabul Edildi!🔴 #Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/nWsbFm6KXgQ/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>nWsbFm6KXgQ</src>
