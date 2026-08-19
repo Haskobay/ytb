@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Aslıhan Yıldız ile Gün İçinden | 18 Ağustos 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/Ea99hE9E0XY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>Ea99hE9E0XY</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
+	</media>
+	<media>
+		<title>CANLI YAYIN 🔴| Ahmet Denizolgun&amp;#39;un Mezarı Açılacak | SON DAKİKA HABER</title>
+		<thumb>https://i.ytimg.com/vi/oAzT8NQkjm8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>oAzT8NQkjm8</src>
 	</media>
 	<media>
 		<title>LIVE: Latest News Headlines and Events From All Over the World</title>
@@ -25,34 +25,10 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
-		<title>CANLI YAYIN 🔴| SÜRE DOLDU! ABD - İran Ateşkesi Sürecek Mi? | SON DAKİKA HABER</title>
-		<thumb>https://i.ytimg.com/vi/oAzT8NQkjm8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>oAzT8NQkjm8</src>
-	</media>
-	<media>
-		<title>#CANLI Öğle Bülteni | Gülinay Selçuk</title>
-		<thumb>https://i.ytimg.com/vi/gUN1Anq_p68/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>gUN1Anq_p68</src>
-	</media>
-	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
-	</media>
-	<media>
-		<title>#CANLI | İrem Sansak ile Haber Masası</title>
-		<thumb>https://i.ytimg.com/vi/QsVOeQdxYBs/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>QsVOeQdxYBs</src>
-	</media>
-	<media>
-		<title>#CANLI | ANKARA&amp;#39;DA SICAK SAATLER! Özgür Özel A Takımını Topladı! İşte Masada Görüşülecek Konular!</title>
-		<thumb>https://i.ytimg.com/vi/3dTbSPqrNLA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>3dTbSPqrNLA</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -115,12 +91,6 @@
 		<src>EqoCJ8BPxtE</src>
 	</media>
 	<media>
-		<title>CANLI | TÜRK ASKERİ SURİYE&amp;#39;DE! İsrail&amp;#39;den Türkiye Sınırındaki Havalimanını Vurdu</title>
-		<thumb>https://i.ytimg.com/vi/VKTXP2wLs9E/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>VKTXP2wLs9E</src>
-	</media>
-	<media>
 		<title>TVNET ​Canlı Yayın | Son Gelişmeler, Son Dakika Haberler</title>
 		<thumb>https://i.ytimg.com/vi/Z5bqy4gwEmc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -139,16 +109,16 @@
 		<src>UCX7z5u15k8</src>
 	</media>
 	<media>
-		<title>ALİHAN KURİŞ TUTUKLANDI! 🔴 #Canlı Yayın ᴴᴰ</title>
-		<thumb>https://i.ytimg.com/vi/dftRcfGh6UY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>dftRcfGh6UY</src>
-	</media>
-	<media>
 		<title>A Haber Canlı -  🔴 #Canlı Yayın ᴴᴰ - Canlı TV İzle | A Haber</title>
 		<thumb>https://i.ytimg.com/vi/HVSxZ7TCqz0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>HVSxZ7TCqz0</src>
+	</media>
+	<media>
+		<title>ALİHAN KURİŞ TUTUKLANDI! 🔴 #Canlı Yayın ᴴᴰ</title>
+		<thumb>https://i.ytimg.com/vi/dftRcfGh6UY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>dftRcfGh6UY</src>
 	</media>
 	<media>
 		<title>Akit TV Canlı Yayını</title>
@@ -161,12 +131,6 @@
 		<thumb>https://i.ytimg.com/vi/8nt4AKdiMqM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>8nt4AKdiMqM</src>
-	</media>
-	<media>
-		<title>#Canlı | Mine Çakmakcı ile Haber Saati</title>
-		<thumb>https://i.ytimg.com/vi/7JwX8luzCe0/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>7JwX8luzCe0</src>
 	</media>
 	<media>
 		<title>TGRT EU Canlı Yayını</title>
@@ -185,11 +149,5 @@
 		<thumb>https://i.ytimg.com/vi/qLgOv5suNpI/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>qLgOv5suNpI</src>
-	</media>
-	<media>
-		<title>#CANLI | Tuğba Tura ile KRT Haber (18.08.2026)</title>
-		<thumb>https://i.ytimg.com/vi/xUjWdZHWn18/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>xUjWdZHWn18</src>
 	</media>
 </media>
