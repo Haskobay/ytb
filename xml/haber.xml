@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Deniz Çağlayan Cengiz ile Ana Haber | 17 Eylül 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/KBdd7dI9hOc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>KBdd7dI9hOc</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
+	</media>
+	<media>
+		<title>İslam Dünyasının Kalbinde Husiler Tehdidi Mi? I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/2BhWbGVF2t8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>2BhWbGVF2t8</src>
+	</media>
+	<media>
+		<title>Kritik Toplantı Sonrası Piyasa Nasıl? I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/I5ujO_oRx0g/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>I5ujO_oRx0g</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -19,16 +37,22 @@
 		<src>ogMaukPITDE</src>
 	</media>
 	<media>
+		<title>#CANLI Özlem Gürses ile Sözcü Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/qPefGblUzIg/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>qPefGblUzIg</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Gökhan Kayış ile Günaydın Türkiye</title>
-		<thumb>https://i.ytimg.com/vi/zkg38_Crs0g/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Ece Üner ile Halk Ana Haber | #faturahalka</title>
+		<thumb>https://i.ytimg.com/vi/Tkwuu_Un_sE/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>zkg38_Crs0g</src>
+		<src>Tkwuu_Un_sE</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -49,6 +73,12 @@
 		<src>qFKEi2BqHYc</src>
 	</media>
 	<media>
+		<title>#CANLI l Ahmet Yeşiltepe ile tv100 Ana Haber | 17 Eylül 2026</title>
+		<thumb>https://i.ytimg.com/vi/9llxkWu8bAI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>9llxkWu8bAI</src>
+	</media>
+	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/4WSvLRk83-c/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -61,16 +91,16 @@
 		<src>pqq5c6k70kk</src>
 	</media>
 	<media>
-		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
-		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>CPXn_5nTtao</src>
-	</media>
-	<media>
 		<title>🔴 CANLI | Son Dakika, Sıcak Gelişmeler, Gündem</title>
 		<thumb>https://i.ytimg.com/vi/CJHVSYHpVvc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>CJHVSYHpVvc</src>
+	</media>
+	<media>
+		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
+		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>CPXn_5nTtao</src>
 	</media>
 	<media>
 		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
@@ -83,6 +113,12 @@
 		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>s4KIyYkwiM0</src>
+	</media>
+	<media>
+		<title>CANLI HABER - Trump: Umarım İran&amp;#39;la Savaşın Sonuna Yaklaşıyoruz!</title>
+		<thumb>https://i.ytimg.com/vi/58pBqDYGusc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>58pBqDYGusc</src>
 	</media>
 	<media>
 		<title>SON DAKİKA HABERLERİ - Haber Global TV ᴴᴰ Canlı TV İzle</title>
@@ -98,9 +134,15 @@
 	</media>
 	<media>
 		<title>TRT Haber Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/myv0L5yK_rY/hqdefault_live.jpg</thumb>
+		<thumb>https://i.ytimg.com/vi/eqxFPKDlloo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>myv0L5yK_rY</src>
+		<src>eqxFPKDlloo</src>
+	</media>
+	<media>
+		<title>ABD&amp;#39;de İsrail karşıtı sesler yükseliyor – Piyasalarda fon depremi | Çiğdem Akdemir ile Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/2LCyVxWUTks/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>2LCyVxWUTks</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
@@ -109,16 +151,16 @@
 		<src>yjKQZF9-8Nk</src>
 	</media>
 	<media>
-		<title>Kaşif Kozinoğlu’nun Mezarı Açıldı! Kemik ve Toprak Örneği Alınacak 🔴 Canlı Yayını ᴴᴰ | A Haber</title>
-		<thumb>https://i.ytimg.com/vi/3w-tyfdrprc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>3w-tyfdrprc</src>
-	</media>
-	<media>
 		<title>A Haber Canlı TV | Son Dakika! 🔴 #Haberler - Gündemde Neler Oluyor? | #Canlı Haber İzle</title>
 		<thumb>https://i.ytimg.com/vi/9pGruMw_21g/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>9pGruMw_21g</src>
+	</media>
+	<media>
+		<title>Başkan Erdoğan Ve Trump New York&amp;#39;ta Görüşecek! 🔴 Canlı Yayını ᴴᴰ | A Haber</title>
+		<thumb>https://i.ytimg.com/vi/3w-tyfdrprc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>3w-tyfdrprc</src>
 	</media>
 	<media>
 		<title>Akit TV Canlı Yayını</title>
@@ -139,6 +181,12 @@
 		<src>B8TLLwCojuM</src>
 	</media>
 	<media>
+		<title>#Canlı | Betül İsaoğlu ile Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/PzMogEOUo8w/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>PzMogEOUo8w</src>
+	</media>
+	<media>
 		<title>TGRT Canlı Yayını</title>
 		<thumb>https://i.ytimg.com/vi/8WrpltCwv-8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -151,9 +199,21 @@
 		<src>MOhcWsOL1Us</src>
 	</media>
 	<media>
+		<title>🔴#CANLI | Borsada “Fon” Depremi Nasıl Başladı? - Burak Kabakçılı ile TV5 Ana Haber | 17.09.2026</title>
+		<thumb>https://i.ytimg.com/vi/M33OF98CQeg/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>M33OF98CQeg</src>
+	</media>
+	<media>
 		<title>#CANLI I KRT TV Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/QYjD0SDP97w/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>QYjD0SDP97w</src>
+	</media>
+	<media>
+		<title>#CANLI | Şevval Şirin ile KRT Ana Haber (17.09.2026)</title>
+		<thumb>https://i.ytimg.com/vi/p9T1Sqv4-hI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>p9T1Sqv4-hI</src>
 	</media>
 </media>
