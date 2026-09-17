@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Deniz Çağlayan Cengiz ile Ana Haber | 16 Eylül 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/TGVBVolbmCA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>TGVBVolbmCA</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
-	</media>
-	<media>
-		<title>Husileri Kim Mekke&amp;#39;ye Saldırtıyor? I CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/iBSNt5DV9oQ/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>iBSNt5DV9oQ</src>
-	</media>
-	<media>
-		<title>ABD Üslerinde Büyük Yıkım! I CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/aAlvuS8ApwY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>aAlvuS8ApwY</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -37,22 +19,16 @@
 		<src>ogMaukPITDE</src>
 	</media>
 	<media>
-		<title>#CANLI Özlem Gürses ile Sözcü Ana Haber</title>
-		<thumb>https://i.ytimg.com/vi/LUhFCNVhui8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>LUhFCNVhui8</src>
-	</media>
-	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Ece Üner ile Halk Ana Haber | #kayıp</title>
-		<thumb>https://i.ytimg.com/vi/qI8MBJTLtd4/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Gökhan Kayış ile Günaydın Türkiye</title>
+		<thumb>https://i.ytimg.com/vi/zkg38_Crs0g/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>qI8MBJTLtd4</src>
+		<src>zkg38_Crs0g</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -61,22 +37,16 @@
 		<src>jHMsvYrf-UA</src>
 	</media>
 	<media>
-		<title>🔴 Günün Önemli Gelişmeleri ve Son Dakika Haberleri İle 24 TV Canlı İzle - #Canlı #Haber #SonDakika</title>
-		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>qFKEi2BqHYc</src>
-	</media>
-	<media>
 		<title>🔴 24 TV Canlı İzle</title>
 		<thumb>https://i.ytimg.com/vi/6B-nPOdP720/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>6B-nPOdP720</src>
 	</media>
 	<media>
-		<title>#CANLI | Ahmet Yeşiltepe ile tv100 Ana Haber | 16 Eylül 2026</title>
-		<thumb>https://i.ytimg.com/vi/a3avLGK_0Lc/hqdefault_live.jpg</thumb>
+		<title>🔴 Günün Önemli Gelişmeleri ve Son Dakika Haberleri İle 24 TV Canlı İzle - #Canlı #Haber #SonDakika</title>
+		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>a3avLGK_0Lc</src>
+		<src>qFKEi2BqHYc</src>
 	</media>
 	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
@@ -91,16 +61,16 @@
 		<src>pqq5c6k70kk</src>
 	</media>
 	<media>
-		<title>🔴 CANLI | Son Dakika, Sıcak Gelişmeler, Gündem</title>
-		<thumb>https://i.ytimg.com/vi/CJHVSYHpVvc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>CJHVSYHpVvc</src>
-	</media>
-	<media>
 		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>CPXn_5nTtao</src>
+	</media>
+	<media>
+		<title>🔴 CANLI | Son Dakika, Sıcak Gelişmeler, Gündem</title>
+		<thumb>https://i.ytimg.com/vi/CJHVSYHpVvc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>CJHVSYHpVvc</src>
 	</media>
 	<media>
 		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
@@ -131,12 +101,6 @@
 		<thumb>https://i.ytimg.com/vi/myv0L5yK_rY/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>myv0L5yK_rY</src>
-	</media>
-	<media>
-		<title>İran füzeleri ABD üslerini yıktı – Kurtlar Vadisi&amp;#39;ne FETÖ incelemesi | Çiğdem Akdemir ile Ana Haber</title>
-		<thumb>https://i.ytimg.com/vi/V7MLU47Vpe8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>V7MLU47Vpe8</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV Canlı Yayın ᴴᴰ - #tv  izle</title>
@@ -175,12 +139,6 @@
 		<src>B8TLLwCojuM</src>
 	</media>
 	<media>
-		<title>#Canlı | Betül İsaoğlu ile Ana Haber</title>
-		<thumb>https://i.ytimg.com/vi/ezC9aAY9_EM/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>ezC9aAY9_EM</src>
-	</media>
-	<media>
 		<title>TGRT Canlı Yayını</title>
 		<thumb>https://i.ytimg.com/vi/8WrpltCwv-8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -193,21 +151,9 @@
 		<src>MOhcWsOL1Us</src>
 	</media>
 	<media>
-		<title>🔴#CANLI | Kaşif Kozinoğlu&amp;#39;nun Ölümünde FETÖ İddiası - Burak Kabakçılı ile TV5 Ana Haber | 16.09.2026</title>
-		<thumb>https://i.ytimg.com/vi/jfbFAOcD55w/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>jfbFAOcD55w</src>
-	</media>
-	<media>
 		<title>#CANLI I KRT TV Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/QYjD0SDP97w/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>QYjD0SDP97w</src>
-	</media>
-	<media>
-		<title>#CANLI | Şevval Şirin ile Ana Haber (16.09.2026)</title>
-		<thumb>https://i.ytimg.com/vi/hhusbk_0I9Q/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>hhusbk_0I9Q</src>
 	</media>
 </media>
