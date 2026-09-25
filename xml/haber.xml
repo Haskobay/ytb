@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
+		<title>Deniz Çağlayan Cengiz ile Ana Haber | Haber Artı | 25 Eylül 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/D6dJD7L-lzI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>D6dJD7L-lzI</src>
+	</media>
+	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
+	</media>
+	<media>
+		<title>Türkiye&amp;#39;de İstikrarı Kim Hedef Alıyor? I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/NU0Zna7PzHM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>NU0Zna7PzHM</src>
+	</media>
+	<media>
+		<title>Türkiye Husiler-Suudi Arabistan&amp;#39;da Devrede! I CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/bAJxm7R_XPM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>bAJxm7R_XPM</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -19,16 +37,22 @@
 		<src>ogMaukPITDE</src>
 	</media>
 	<media>
+		<title>#CANLI Can Coşkun ile Sözcü Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/3JCPST7V-lE/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>3JCPST7V-lE</src>
+	</media>
+	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/ztmY_cCtUl0/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Süheyla Demir ile Günaydın Türkiye</title>
-		<thumb>https://i.ytimg.com/vi/MxIfYk1bm04/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Ece Üner ile Halk Ana Haber | #çaresiz</title>
+		<thumb>https://i.ytimg.com/vi/g41i943KtFw/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>MxIfYk1bm04</src>
+		<src>g41i943KtFw</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -47,6 +71,12 @@
 		<thumb>https://i.ytimg.com/vi/6B-nPOdP720/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>6B-nPOdP720</src>
+	</media>
+	<media>
+		<title>#CANLI I Ahmet Yeşiltepe ile tv100 Ana Haber | 25 Eylül 2026</title>
+		<thumb>https://i.ytimg.com/vi/aJiUr03y3mc/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>aJiUr03y3mc</src>
 	</media>
 	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
@@ -103,16 +133,16 @@
 		<src>GefoJ-LXYfc</src>
 	</media>
 	<media>
+		<title>Netanyahu&amp;#39;ya BM&amp;#39;de soğuk duş – Yemen&amp;#39;e Türk askeri mi gidecek? | Çiğdem Akdemir ile Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/nS680OOG1Us/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>nS680OOG1Us</src>
+	</media>
+	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/Zlg7Fex3iq4/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Zlg7Fex3iq4</src>
-	</media>
-	<media>
-		<title>A Haber Canlı TV | Son Dakika! 🔴 #Haberler - Gündemde Neler Oluyor? | #Canlı Haber İzle</title>
-		<thumb>https://i.ytimg.com/vi/bdLJ7tZFd6M/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>bdLJ7tZFd6M</src>
 	</media>
 	<media>
 		<title>🔴 Akit TV Canlı Yayını #canlıyayın</title>
@@ -133,6 +163,18 @@
 		<src>SB7JzpJGH2A</src>
 	</media>
 	<media>
+		<title>#Canlı | Betül İsaoğlu ile Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/gis4IeBqJEw/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>gis4IeBqJEw</src>
+	</media>
+	<media>
+		<title>#Canlı | Zeynep Kıt ile Gün Başlıyor</title>
+		<thumb>https://i.ytimg.com/vi/jm0cwK1GOxE/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>jm0cwK1GOxE</src>
+	</media>
+	<media>
 		<title>TGRT Canlı Yayını</title>
 		<thumb>https://i.ytimg.com/vi/8WrpltCwv-8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -145,9 +187,21 @@
 		<src>MOhcWsOL1Us</src>
 	</media>
 	<media>
+		<title>🔴#CANLI | Fon Soruşturmasında 45 Kişi Tutuklandı - Burak Kabakçılı ile TV5 Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/4gIe8TUIqtM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>4gIe8TUIqtM</src>
+	</media>
+	<media>
 		<title>#CANLI I KRT TV Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/QYjD0SDP97w/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>QYjD0SDP97w</src>
+	</media>
+	<media>
+		<title>#CANLI | Şevval Şirin ile Ana Haber (25.09.2026)</title>
+		<thumb>https://i.ytimg.com/vi/fgqs_vWos38/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>fgqs_vWos38</src>
 	</media>
 </media>
