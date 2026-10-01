@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Av. Faik Işık fon yolsuzluğunu yorumluyor | Çağdaş Cengiz ile Vatandaş Ne Diyor? | #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/fyY2DBVukxw/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>fyY2DBVukxw</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
-	</media>
-	<media>
-		<title>56 Tutuklama: Fon Çarkında Hesap Vakti! | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/dMv-s6bcENs/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>dMv-s6bcENs</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -25,10 +13,10 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
-		<title>#CANLI Gazeteci Masası - İsmail Saymaz, Barış Terkoğlu, Murat Ağırel, Saygı Öztürk</title>
-		<thumb>https://i.ytimg.com/vi/UMfFEmot7eI/hqdefault_live.jpg</thumb>
+		<title>#CANLI Merve Ekinci ile Uyanma Vakti</title>
+		<thumb>https://i.ytimg.com/vi/ZQ-Oo2poTpA/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>UMfFEmot7eI</src>
+		<src>ZQ-Oo2poTpA</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -37,10 +25,10 @@
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Kürşad Oğuz ile Rota</title>
-		<thumb>https://i.ytimg.com/vi/NzQKPMKk5Oo/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Deniz Bayramoğlu ile Gün Doğarken | #zamazam</title>
+		<thumb>https://i.ytimg.com/vi/CBB2RwSpq98/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>NzQKPMKk5Oo</src>
+		<src>CBB2RwSpq98</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -61,12 +49,6 @@
 		<src>6B-nPOdP720</src>
 	</media>
 	<media>
-		<title>#CANLI | Buket Aydın İle Doğrudan | 30 Eylül 2026</title>
-		<thumb>https://i.ytimg.com/vi/d1bYLYR-7OM/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>d1bYLYR-7OM</src>
-	</media>
-	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
 		<thumb>https://i.ytimg.com/vi/4WSvLRk83-c/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -79,24 +61,6 @@
 		<src>pqq5c6k70kk</src>
 	</media>
 	<media>
-		<title>#CANLI - #AçıkveNet&amp;#39;te Sena Alkan soruyor; konukları yanıtlıyor</title>
-		<thumb>https://i.ytimg.com/vi/sg5PKfehkgE/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>sg5PKfehkgE</src>
-	</media>
-	<media>
-		<title>CANLI HABER - Bahis Oynayan 448 Kulüp Yöneticisi PFDK&amp;#39;ya Sevk Edildi!</title>
-		<thumb>https://i.ytimg.com/vi/VXM9jAy-TFY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>VXM9jAy-TFY</src>
-	</media>
-	<media>
-		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>RNVNlJSUFoE</src>
-	</media>
-	<media>
 		<title>🔴 CANLI | Son Dakika, Sıcak Gelişmeler, Gündem</title>
 		<thumb>https://i.ytimg.com/vi/CJHVSYHpVvc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
@@ -107,6 +71,18 @@
 		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>CPXn_5nTtao</src>
+	</media>
+	<media>
+		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>RNVNlJSUFoE</src>
+	</media>
+	<media>
+		<title>LIVE: Eilmeldungen und aktuelle Entwicklungen aus aller Welt</title>
+		<thumb>https://i.ytimg.com/vi/s4KIyYkwiM0/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>s4KIyYkwiM0</src>
 	</media>
 	<media>
 		<title>SON DAKİKA HABERLERİ - Haber Global TV ᴴᴰ Canlı TV İzle</title>
@@ -125,12 +101,6 @@
 		<thumb>https://i.ytimg.com/vi/GefoJ-LXYfc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>GefoJ-LXYfc</src>
-	</media>
-	<media>
-		<title>Meclis açılıyor: Fon, süreç, operasyonlar ve erken seçim | Kerim Aktacir ile Özel Gündem #canlı</title>
-		<thumb>https://i.ytimg.com/vi/VVDaRDZYAR8/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>VVDaRDZYAR8</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
@@ -157,22 +127,10 @@
 		<src>U0JjOs-ayaM</src>
 	</media>
 	<media>
-		<title>#Canlı#Canlı | Ayşegül Şengül İle İkna Noktası</title>
-		<thumb>https://i.ytimg.com/vi/nw4wXwkDGtw/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>nw4wXwkDGtw</src>
-	</media>
-	<media>
 		<title>LİDER HABER - 🔴 Canlı Yayın ᴴᴰ - Canlı TV</title>
 		<thumb>https://i.ytimg.com/vi/SB7JzpJGH2A/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>SB7JzpJGH2A</src>
-	</media>
-	<media>
-		<title>#Canlı | Zeynep Kıt ile Gün Başlıyor</title>
-		<thumb>https://i.ytimg.com/vi/1U27-fhqV8s/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>1U27-fhqV8s</src>
 	</media>
 	<media>
 		<title>TGRT Canlı Yayını</title>
@@ -187,21 +145,21 @@
 		<src>oM8knhi5hzQ</src>
 	</media>
 	<media>
-		<title>🔴#CANLI | Erdoğan talimat verdi, fon vurgununun ucu nereye varacak? - Buyurun Başlıyoruz</title>
-		<thumb>https://i.ytimg.com/vi/Hr1MG-m07po/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>Hr1MG-m07po</src>
-	</media>
-	<media>
 		<title>#CANLI I KRT TV Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/QYjD0SDP97w/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>QYjD0SDP97w</src>
 	</media>
 	<media>
-		<title>#CANLI | Serhan Başbahçıvan ile Eksen (30.09.2026)</title>
-		<thumb>https://i.ytimg.com/vi/QNYGdD-mSMg/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Meryem Şahan ile Gece Haberleri 30.09.2026</title>
+		<thumb>https://i.ytimg.com/vi/VoVRqA8T-Uo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>QNYGdD-mSMg</src>
+		<src>VoVRqA8T-Uo</src>
+	</media>
+	<media>
+		<title>#CANLI | Begüm Çamlı İle Başka Bir Gün | 01.10.2026</title>
+		<thumb>https://i.ytimg.com/vi/Hdmd3cq4an8/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>Hdmd3cq4an8</src>
 	</media>
 </media>
