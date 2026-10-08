@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Prof. Dr. Emin Gürses: &amp;quot;Kozinoğlu soruşturması ve diğerleri derinleşerek büyüyecek&amp;quot; | İşin Aslı</title>
-		<thumb>https://i.ytimg.com/vi/waQrjIPVc48/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>waQrjIPVc48</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
-	</media>
-	<media>
-		<title>İzmir Tarihte İlk Kez AK Parti&amp;#39;ye Geçti! | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/va59jWlHww0/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>va59jWlHww0</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -25,10 +13,10 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
-		<title>#CANLI Gazeteci Masası - İsmail Saymaz, Barış Terkoğlu, Murat Ağırel, Saygı Öztürk</title>
-		<thumb>https://i.ytimg.com/vi/dIkB5z9dFhE/hqdefault_live.jpg</thumb>
+		<title>#CANLI Merve Ekinci ile Uyanma Vakti</title>
+		<thumb>https://i.ytimg.com/vi/EzumkID-Acc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>dIkB5z9dFhE</src>
+		<src>EzumkID-Acc</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -37,16 +25,10 @@
 		<src>ztmY_cCtUl0</src>
 	</media>
 	<media>
-		<title>#CANLI | Meclis&amp;#39;te Sıcak Saatler! YENİ Partili İsimlerden Fon Vurgunuyla İlgili Yeni İfşalar Gelecek</title>
-		<thumb>https://i.ytimg.com/vi/cbLIwnBvHSs/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Deniz Bayramoğlu ile Gün Doğarken | #nasılbilirdiniz</title>
+		<thumb>https://i.ytimg.com/vi/0dNdli3OIMk/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>cbLIwnBvHSs</src>
-	</media>
-	<media>
-		<title>#CANLI | Kürşad Oğuz ile Rota</title>
-		<thumb>https://i.ytimg.com/vi/jPxdTnrWwdQ/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>jPxdTnrWwdQ</src>
+		<src>0dNdli3OIMk</src>
 	</media>
 	<media>
 		<title>HALK TV CANLI YAYINI | FULL HD</title>
@@ -55,34 +37,10 @@
 		<src>jHMsvYrf-UA</src>
 	</media>
 	<media>
-		<title>#CANLI I Buket Aydın İle Doğrudan | 07 Ekim 2026</title>
-		<thumb>https://i.ytimg.com/vi/l1Sjp_JXv4Y/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>l1Sjp_JXv4Y</src>
-	</media>
-	<media>
 		<title>NTV Canlı Yayın - Full HD İzle</title>
 		<thumb>https://i.ytimg.com/vi/pqq5c6k70kk/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>pqq5c6k70kk</src>
-	</media>
-	<media>
-		<title>#CANLI - #AçıkveNet&amp;#39;te @senaalkan soruyor; konukları yanıtlıyor</title>
-		<thumb>https://i.ytimg.com/vi/LtqpXGaju_E/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>LtqpXGaju_E</src>
-	</media>
-	<media>
-		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
-		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>RNVNlJSUFoE</src>
-	</media>
-	<media>
-		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
-		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>CPXn_5nTtao</src>
 	</media>
 	<media>
 		<title>🔴 CANLI | Son Dakika, Sıcak Gelişmeler, Gündem</title>
@@ -91,16 +49,28 @@
 		<src>CJHVSYHpVvc</src>
 	</media>
 	<media>
+		<title>Habertürk TV Canlı TV İzle ᴴᴰ</title>
+		<thumb>https://i.ytimg.com/vi/CPXn_5nTtao/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>CPXn_5nTtao</src>
+	</media>
+	<media>
+		<title>Habertürk TV Canlı İzle | Son Dakika Haberleri | Canlı Yayın</title>
+		<thumb>https://i.ytimg.com/vi/RNVNlJSUFoE/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>RNVNlJSUFoE</src>
+	</media>
+	<media>
+		<title>SON DAKİKA I CANLI I İstanbul Maltepe&amp;#39;de 6 Katlı Bina Çöktü! Arama Kurtarma Başladı!</title>
+		<thumb>https://i.ytimg.com/vi/lF1BKuUz1AI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>lF1BKuUz1AI</src>
+	</media>
+	<media>
 		<title>TRT Haber Canlı Yayın</title>
 		<thumb>https://i.ytimg.com/vi/GefoJ-LXYfc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>GefoJ-LXYfc</src>
-	</media>
-	<media>
-		<title>&amp;quot;Fon krizinde ve Mekke Anlaşması&amp;#39;nda son durum - Cemil Tugay | Kerim Aktacir ile Özel Gündem</title>
-		<thumb>https://i.ytimg.com/vi/Sf4hiZ7IQoY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>Sf4hiZ7IQoY</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
@@ -119,12 +89,6 @@
 		<thumb>https://i.ytimg.com/vi/fVl16KObNu4/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>fVl16KObNu4</src>
-	</media>
-	<media>
-		<title>Cemil Tugay AK Parti&amp;#39;ye Nasıl Geçti? Melih Altınok İle Sebep Sonuç! #Canlı Yayın ᴴᴰ | A Haber</title>
-		<thumb>https://i.ytimg.com/vi/MIVzHKRCsog/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>MIVzHKRCsog</src>
 	</media>
 	<media>
 		<title>A Haber Canlı TV | Son Dakika! 🔴 #Haberler - Gündemde Neler Oluyor? | #Canlı Haber İzle</title>
@@ -151,45 +115,15 @@
 		<src>zwNpYXQwx2g</src>
 	</media>
 	<media>
-		<title>#Canlı | Ayşegül Şengül İle İkna Noktası</title>
-		<thumb>https://i.ytimg.com/vi/1VbxOhswOlI/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>1VbxOhswOlI</src>
-	</media>
-	<media>
-		<title>#Canlı | Mine Çakmakcı ile Haber Saati</title>
-		<thumb>https://i.ytimg.com/vi/1i0M6IrHvnc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>1i0M6IrHvnc</src>
-	</media>
-	<media>
 		<title>TGRT Canlı Yayını</title>
 		<thumb>https://i.ytimg.com/vi/8WrpltCwv-8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>8WrpltCwv-8</src>
 	</media>
 	<media>
-		<title>🔴#CANLI | Aksa Tufan’ı Hedefine Ulaştı Mı, 7 Ekim’de Neler Değişti? - Buyurun Başlıyoruz</title>
-		<thumb>https://i.ytimg.com/vi/d3gG-481kBY/hqdefault_live.jpg</thumb>
+		<title>#CANLI | Begüm Çamlı İle Başka Bir Gün | 08.10.2026</title>
+		<thumb>https://i.ytimg.com/vi/BXj_lbO58DE/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>d3gG-481kBY</src>
-	</media>
-	<media>
-		<title>#CANLI | Şevval Şirin ile Panorama | 07.10.2026</title>
-		<thumb>https://i.ytimg.com/vi/ua_pG-d0PGI/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>ua_pG-d0PGI</src>
-	</media>
-	<media>
-		<title>#CANLI Melissa Öztürk ile Gündem Hattı (07.10.2026)</title>
-		<thumb>https://i.ytimg.com/vi/KkMxc3G4Gvc/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>KkMxc3G4Gvc</src>
-	</media>
-	<media>
-		<title>#CANLI Nevra Öner ve Mahir Baş ile Gündeme Doğru (07.10.2026)</title>
-		<thumb>https://i.ytimg.com/vi/syci9eqxSjE/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>syci9eqxSjE</src>
+		<src>BXj_lbO58DE</src>
 	</media>
 </media>
