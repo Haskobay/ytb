@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>#CANLI Merve Ekinci ile Uyanma Vakti</title>
-		<thumb>https://i.ytimg.com/vi/Hbr6qaOkSn0/hqdefault_live.jpg</thumb>
+		<title>Jülide İshakoğlu ile Gün Sonu | 12 Ekim 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/MRVcsMCnXic/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>Hbr6qaOkSn0</src>
+		<src>MRVcsMCnXic</src>
 	</media>
 	<media>
-		<title>#CANLI | Deniz Bayramoğlu ile Gün Doğarken | #neyinuğruna</title>
-		<thumb>https://i.ytimg.com/vi/HUwDBOXA8qY/hqdefault_live.jpg</thumb>
+		<title>Ahmet Hakan ile Tarafsız Bölge | Husiler Vuruyor Dünya Ayakta | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/a1nG6qLAudA/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>HUwDBOXA8qY</src>
+		<src>a1nG6qLAudA</src>
+	</media>
+	<media>
+		<title>HUSİLER VURUYOR DÜNYA AYAKTA | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/n8sgeaGuYEI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>n8sgeaGuYEI</src>
+	</media>
+	<media>
+		<title>#CANLI Pınar Erbaş ile Gecenin Sözü</title>
+		<thumb>https://i.ytimg.com/vi/REy9CABxMus/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>REy9CABxMus</src>
+	</media>
+	<media>
+		<title>#CANLI | Kürşad Oğuz ile Rota</title>
+		<thumb>https://i.ytimg.com/vi/dynGXC88gaw/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>dynGXC88gaw</src>
+	</media>
+	<media>
+		<title>#CANLI | Erdoğan Aktaş İle Eşit Ağırlık |  12 Ekim 2026</title>
+		<thumb>https://i.ytimg.com/vi/xrDQ8nSa7s4/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>xrDQ8nSa7s4</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/DLKUqTqUBKo/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>DLKUqTqUBKo</src>
-	</media>
-	<media>
-		<title>A Haber Canlı Yayın | Sıcak Gelişmeler ve Son Dakika Haberleri! 7/24 | 🔴Canlı TV İzle #haber #canlı</title>
-		<thumb>https://i.ytimg.com/vi/EyTWkmkQxJA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>EyTWkmkQxJA</src>
 	</media>
 	<media>
 		<title>🔴 Akit TV Canlı Yayını #canlıyayın</title>
@@ -32,8 +50,32 @@
 	</media>
 	<media>
 		<title>LİDER HABER - 🔴 Canlı Yayın ᴴᴰ - Canlı TV</title>
-		<thumb>https://i.ytimg.com/vi/rbIWFnutN_o/hqdefault_live.jpg</thumb>
+		<thumb>https://i.ytimg.com/vi/UgaiV4Ztjsc/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>rbIWFnutN_o</src>
+		<src>UgaiV4Ztjsc</src>
+	</media>
+	<media>
+		<title>#Canlı | Telegol -Serhat Ulueren, Adnan Aybaba, Selim Soydan, Kerem İnan</title>
+		<thumb>https://i.ytimg.com/vi/yW6_Gh65VkA/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>yW6_Gh65VkA</src>
+	</media>
+	<media>
+		<title>#Canlı | Barometre - Mustafa Albayrak, İsmail Güzel, Metin Mutanoğlu</title>
+		<thumb>https://i.ytimg.com/vi/tGFvDK_dN1I/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>tGFvDK_dN1I</src>
+	</media>
+	<media>
+		<title>#Canlı | Ezgi Kılıç İle Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/VOhB3fPHR7o/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>VOhB3fPHR7o</src>
+	</media>
+	<media>
+		<title>#CANLI | Meryem Şahan ile Gece Haberleri | 12.10.2026</title>
+		<thumb>https://i.ytimg.com/vi/rwiA1lD5FnI/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>rwiA1lD5FnI</src>
 	</media>
 </media>
