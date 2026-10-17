@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Türkiye&amp;#39;nin en çok izlenen Halk TV, halkındır. &amp;#39;Halk&amp;#39;ın kanalı kayyum ile teslim alınamaz!</title>
+		<title>Sel Suyuna Değen Eşya Kullanılır Mı? | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/32gp21SP0pM/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>32gp21SP0pM</src>
+	</media>
+	<media>
+		<title>Fransa Yanıyor: Sarı Yelekliler Sokakta! | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/eAnU2iqDygA/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>eAnU2iqDygA</src>
+	</media>
+	<media>
+		<title>Gözde Şeker ile Kırmızı Çizgi yeniden !Gerçeklerin peşinde, kaldığımız yerden devam ediyoruz</title>
 		<thumb>https://i.ytimg.com/vi/8_qAqJdVAuM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>8_qAqJdVAuM</src>
+	</media>
+	<media>
+		<title>Ticaretin kalbi İstanbul | İTO Seçim Özel | Mert Erel ile Gayrimenkul Pusulası</title>
+		<thumb>https://i.ytimg.com/vi/YRt4zINAv-A/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>YRt4zINAv-A</src>
 	</media>
 	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
@@ -31,21 +49,15 @@
 		<src>E73cFH7QHB8</src>
 	</media>
 	<media>
-		<title>#Canlı | Ezgi Kılıç ile Ana Haber</title>
-		<thumb>https://i.ytimg.com/vi/62TLfNLBMbQ/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>62TLfNLBMbQ</src>
-	</media>
-	<media>
-		<title>#Canlı | Neşe Berber İle Soruyoruz</title>
-		<thumb>https://i.ytimg.com/vi/Jq7fyKWdqm4/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>Jq7fyKWdqm4</src>
-	</media>
-	<media>
 		<title>#CANLI I KRT Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/yRBufi6xue8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>yRBufi6xue8</src>
+	</media>
+	<media>
+		<title>#CANLI | Melissa Öztürk ile İş&amp;#39;te Perspektif (17.10.2026)</title>
+		<thumb>https://i.ytimg.com/vi/0U9QXbHWOSY/hqdefault_live.jpg</thumb>
+		<type>youtube</type>
+		<src>0U9QXbHWOSY</src>
 	</media>
 </media>
