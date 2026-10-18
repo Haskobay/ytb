@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Sel Suyuna Değen Eşya Kullanılır Mı? | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/32gp21SP0pM/hqdefault_live.jpg</thumb>
+		<title>Stratejik Akıl - Doğan Akdeniz, Levent Çelik #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/2bMfDSRWLNs/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
-		<src>32gp21SP0pM</src>
+		<src>2bMfDSRWLNs</src>
 	</media>
 	<media>
-		<title>Fransa Yanıyor: Sarı Yelekliler Sokakta! | CANLI HABER</title>
-		<thumb>https://i.ytimg.com/vi/eAnU2iqDygA/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>eAnU2iqDygA</src>
-	</media>
-	<media>
-		<title>Gözde Şeker ile Kırmızı Çizgi yeniden !Gerçeklerin peşinde, kaldığımız yerden devam ediyoruz</title>
+		<title>HALK TV CANLI YAYINI | FULL HD -  &amp;#39;Halk&amp;#39;ın kanalı kayyum ile teslim alınamaz!</title>
 		<thumb>https://i.ytimg.com/vi/8_qAqJdVAuM/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>8_qAqJdVAuM</src>
@@ -53,11 +47,5 @@
 		<thumb>https://i.ytimg.com/vi/yRBufi6xue8/hqdefault_live.jpg</thumb>
 		<type>youtube</type>
 		<src>yRBufi6xue8</src>
-	</media>
-	<media>
-		<title>#CANLI | Melissa Öztürk ile İş&amp;#39;te Perspektif (17.10.2026)</title>
-		<thumb>https://i.ytimg.com/vi/0U9QXbHWOSY/hqdefault_live.jpg</thumb>
-		<type>youtube</type>
-		<src>0U9QXbHWOSY</src>
 	</media>
 </media>
