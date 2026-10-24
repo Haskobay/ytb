@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Jülide İshakoğlu ile Gün Sonu | 23 Ekim 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/1CsvDpM5wfs/hqdefault.jpg</thumb>
+		<title>Aslıhan Yıldız ile Gün Ortası | 24 Ekim 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/EikWL-s5QUY/hqdefault.jpg</thumb>
 		<type>youtube</type>
-		<src>1CsvDpM5wfs</src>
+		<src>EikWL-s5QUY</src>
 	</media>
 	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
@@ -19,10 +19,28 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
+		<title>Saat Geldi: Fransa Birazdan Yanacak Mı? | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/ddl9tu-TP4A/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>ddl9tu-TP4A</src>
+	</media>
+	<media>
+		<title>Fransa Karışıyor: Polis Müdahalesi Var! | CANLI HABER</title>
+		<thumb>https://i.ytimg.com/vi/QK-O9OJuqzM/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>QK-O9OJuqzM</src>
+	</media>
+	<media>
 		<title>LIVE: Latest News Headlines and Events From All Over the World</title>
 		<thumb>https://i.ytimg.com/vi/ogMaukPITDE/hqdefault.jpg</thumb>
 		<type>youtube</type>
 		<src>ogMaukPITDE</src>
+	</media>
+	<media>
+		<title>#CANLI Ekrem Açıkel İle Hafta Sonu Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/1uKulCX2GmQ/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>1uKulCX2GmQ</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -97,6 +115,18 @@
 		<src>GefoJ-LXYfc</src>
 	</media>
 	<media>
+		<title>İstanbul Barosu üyeleri, başkan ve yönetim organlarını belirlemek üzere Olağan Genel Kurul’a gidiyor</title>
+		<thumb>https://i.ytimg.com/vi/DFcpHipOq0Y/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>DFcpHipOq0Y</src>
+	</media>
+	<media>
+		<title>Prof. Dr. Hidayet Sarı ile Sağlık ve Yaşam</title>
+		<thumb>https://i.ytimg.com/vi/_wLgmaSXRa8/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>_wLgmaSXRa8</src>
+	</media>
+	<media>
 		<title>📍📡 ÜLKE TV CANLI YAYINI ᴴᴰ - #tv  izle</title>
 		<thumb>https://i.ytimg.com/vi/RWHjsjauioY/hqdefault.jpg</thumb>
 		<type>youtube</type>
@@ -133,10 +163,10 @@
 		<src>m-jz75mFqu4</src>
 	</media>
 	<media>
-		<title>#Canlı | Sıla Irmak Yılmaz ile Tam Saha</title>
-		<thumb>https://i.ytimg.com/vi/VPDCncgTqjc/hqdefault.jpg</thumb>
+		<title>#Canlı | Ezgi Kılıç İle Ana Haber</title>
+		<thumb>https://i.ytimg.com/vi/LbmczDm22J0/hqdefault.jpg</thumb>
 		<type>youtube</type>
-		<src>VPDCncgTqjc</src>
+		<src>LbmczDm22J0</src>
 	</media>
 	<media>
 		<title>TGRT Canlı Yayını</title>
@@ -151,21 +181,27 @@
 		<src>oM8knhi5hzQ</src>
 	</media>
 	<media>
-		<title>#CANLI Melissa Öztürk ile Gündem Hattı (23.10.2026)</title>
-		<thumb>https://i.ytimg.com/vi/Hty0E02gag0/hqdefault.jpg</thumb>
+		<title>Fon Soruşturması ve 2027 Bütçesi - Panorama - Mustafa Deniz - 24.10.2026</title>
+		<thumb>https://i.ytimg.com/vi/fyDFftP4Vk0/hqdefault.jpg</thumb>
 		<type>youtube</type>
-		<src>Hty0E02gag0</src>
-	</media>
-	<media>
-		<title>#CANLI | Yasin Erçağlayan ile Çapraz Bakış (23.10.2026)</title>
-		<thumb>https://i.ytimg.com/vi/HU57gg9tKho/hqdefault.jpg</thumb>
-		<type>youtube</type>
-		<src>HU57gg9tKho</src>
+		<src>fyDFftP4Vk0</src>
 	</media>
 	<media>
 		<title>#CANLI I KRT Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/yRBufi6xue8/hqdefault.jpg</thumb>
 		<type>youtube</type>
 		<src>yRBufi6xue8</src>
+	</media>
+	<media>
+		<title>#CANLI | Serhan Başbahçıvan ile Hafta Sonu Ana Haber | 24.10.2026</title>
+		<thumb>https://i.ytimg.com/vi/ly2NkZMDHxk/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>ly2NkZMDHxk</src>
+	</media>
+	<media>
+		<title>#CANLI Tuğba Tura ile Haber Bülteni (24.10.2026)</title>
+		<thumb>https://i.ytimg.com/vi/wIiD3ABWbgM/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>wIiD3ABWbgM</src>
 	</media>
 </media>
