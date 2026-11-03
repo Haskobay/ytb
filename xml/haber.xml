@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <media>
 	<media>
-		<title>Jülide İshakoğlı ile Gün Sonu | 2 Kasım 2026 #CANLI</title>
-		<thumb>https://i.ytimg.com/vi/qgvc-xopN6U/hqdefault.jpg</thumb>
-		<type>youtube</type>
-		<src>qgvc-xopN6U</src>
-	</media>
-	<media>
 		<title>Ulusal Kanal TV ᴴᴰ Canlı Yayın İzle #CANLI</title>
 		<thumb>https://i.ytimg.com/vi/Gcxkjxhbhk8/hqdefault.jpg</thumb>
 		<type>youtube</type>
 		<src>Gcxkjxhbhk8</src>
+	</media>
+	<media>
+		<title>Serkan Aksarı ile Günaydın Türkiye | 3 Kasım 2026 #CANLI</title>
+		<thumb>https://i.ytimg.com/vi/7HbtIXjDxt0/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>7HbtIXjDxt0</src>
 	</media>
 	<media>
 		<title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
@@ -19,10 +19,16 @@
 		<src>6N8_r2uwLEc</src>
 	</media>
 	<media>
-		<title>#CANLI Pınar Erbaş ile Gecenin Sözü</title>
-		<thumb>https://i.ytimg.com/vi/EBjQGMgEwIk/hqdefault.jpg</thumb>
+		<title>LIVE: Latest News Headlines and Events From All Over the World</title>
+		<thumb>https://i.ytimg.com/vi/ogMaukPITDE/hqdefault.jpg</thumb>
 		<type>youtube</type>
-		<src>EBjQGMgEwIk</src>
+		<src>ogMaukPITDE</src>
+	</media>
+	<media>
+		<title>#CANLI İsmail Küçükkaya ile Günaydın Türkiyem</title>
+		<thumb>https://i.ytimg.com/vi/oEUoLI8_bhA/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>oEUoLI8_bhA</src>
 	</media>
 	<media>
 		<title>SÖZCÜ TV Canlı Yayını ᴴᴰ</title>
@@ -41,12 +47,6 @@
 		<thumb>https://i.ytimg.com/vi/qFKEi2BqHYc/hqdefault.jpg</thumb>
 		<type>youtube</type>
 		<src>qFKEi2BqHYc</src>
-	</media>
-	<media>
-		<title>#CANLI l Erdoğan Aktaş İle Eşit Ağırlık I 02 Kasım 2026</title>
-		<thumb>https://i.ytimg.com/vi/52aDd_0fbjQ/hqdefault.jpg</thumb>
-		<type>youtube</type>
-		<src>52aDd_0fbjQ</src>
 	</media>
 	<media>
 		<title>tv100 - #Canlı Yayın ᴴᴰ</title>
@@ -139,10 +139,10 @@
 		<src>5E8m7p0RxjA</src>
 	</media>
 	<media>
-		<title>#Canlı | Telegol -Serhat Ulueren, Adnan Aybaba, Kerem İnan</title>
-		<thumb>https://i.ytimg.com/vi/k-YisTIjtCQ/hqdefault.jpg</thumb>
+		<title>#Canlı | Zeynep Kıt ile Gün Başlıyor</title>
+		<thumb>https://i.ytimg.com/vi/onM1yAhcfyU/hqdefault.jpg</thumb>
 		<type>youtube</type>
-		<src>k-YisTIjtCQ</src>
+		<src>onM1yAhcfyU</src>
 	</media>
 	<media>
 		<title>TGRT Canlı Yayını</title>
@@ -157,15 +157,15 @@
 		<src>oM8knhi5hzQ</src>
 	</media>
 	<media>
-		<title>#CANLI | Meryem Şahan ile Gece Haberleri | 02.11.2026</title>
-		<thumb>https://i.ytimg.com/vi/J6Gj6Ndpl6E/hqdefault.jpg</thumb>
-		<type>youtube</type>
-		<src>J6Gj6Ndpl6E</src>
-	</media>
-	<media>
 		<title>#CANLI I KRT Canlı Yayını ᴴᴰ | Son Dakika Haberleri ve Türkiye Gündemi</title>
 		<thumb>https://i.ytimg.com/vi/yRBufi6xue8/hqdefault.jpg</thumb>
 		<type>youtube</type>
 		<src>yRBufi6xue8</src>
+	</media>
+	<media>
+		<title>#CANLI | Begüm Çamlı ile Başka Bir Gün | 03.11.2026</title>
+		<thumb>https://i.ytimg.com/vi/nNExgC6HFF4/hqdefault.jpg</thumb>
+		<type>youtube</type>
+		<src>nNExgC6HFF4</src>
 	</media>
 </media>
